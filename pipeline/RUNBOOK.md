@@ -5,7 +5,7 @@ Objectif : chaque jour, produire **un nouvel épisode** « histoire vraie incroy
 **IMPORTANT (11/11/2026) : Noé ne veut plus passer par Metricool. N'utiliser AUCUN outil Metricool.** La publication se fait par les API officielles quand les accès sont configurés (voir étape 7), sinon Noé publie lui-même avec le kit envoyé.
 
 Constantes :
-- Comptes : `1jour1histoire67` sur Instagram, TikTok et YouTube. Fuseau `Europe/Paris`.
+- **Comptes autorisés — UNIQUEMENT ceux de la chaîne** : Instagram `@1jour1histoire67`, TikTok `@1jour1histoire676`, YouTube chaîne ID `UCH1FzaGfLC2x_jAUzU9i5NQ`, GitHub `1jour1histoire67`. **Ne jamais publier sur un autre compte, en particulier les comptes personnels de Noé.** Avant toute publication par API, vérifier l'identité du compte authentifié (Instagram : `GET /me?fields=username` → `1jour1histoire67` ; YouTube : `channels?part=id&mine=true` → `UCH1FzaGfLC2x_jAUzU9i5NQ` ; TikTok : nom d'utilisateur `1jour1histoire676`) ; si ça ne correspond pas, ne rien publier et prévenir Noé. Fuseau `Europe/Paris`.
 - Hébergement vidéo + chaîne de montage : dépôt GitHub public **`1jour1histoire67/1jour1histoire-videos`** (dossier `pipeline/`, vidéos dans `videos/`).
 - Voix : Microsoft « Henri » via edge-tts (domaine `speech.platform.bing.com` autorisé par Noé).
 - Fichiers de la chaîne de montage (documents du projet) : `claude/pipeline/lib_video.py`, `claude/pipeline/voice.py`, `claude/pipeline/setup.sh`, `claude/pipeline/example_episode.py`.
