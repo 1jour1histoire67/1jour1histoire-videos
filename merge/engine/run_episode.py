@@ -60,4 +60,11 @@ if __name__ == "__main__":
     sh(["ffmpeg", "-y", "-loglevel", "error", "-i", vid, "-i", os.path.join(WORK, "mix.wav"), "-map", "0:v", "-map", "1:a",
         "-c:v", "copy", "-af", "loudnorm=I=-13:TP=-1.0:LRA=11", "-ar", "48000", "-c:a", "aac", "-b:a", "192k",
         "-shortest", "-movflags", "+faststart", out])
-    print("OK", out, f"{time.time() - t0:.0f}s", flush=True)
+    # copie « web » < 10 Mo pour l'import via l'extension Claude du navigateur
+    web = os.path.join(THEME_DIR, T["slug"] + "_web.mp4")
+    sh(["ffmpeg", "-y", "-loglevel", "error", "-i", out, "-c:v", "libx264", "-preset", "medium", "-b:v", "1050k", "-pass", "1",
+        "-passlogfile", os.path.join(WORK, "p"), "-an", "-f", "mp4", "/dev/null"])
+    sh(["ffmpeg", "-y", "-loglevel", "error", "-i", out, "-c:v", "libx264", "-preset", "medium", "-b:v", "1050k", "-pass", "2",
+        "-passlogfile", os.path.join(WORK, "p"), "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", web])
+    assert os.path.getsize(web) < 10_000_000, "copie web trop lourde (> 10 Mo)"
+    print("OK", out, web, f"{os.path.getsize(web) / 1e6:.1f} Mo", f"{time.time() - t0:.0f}s", flush=True)

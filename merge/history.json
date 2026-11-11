@@ -1,11 +1,111 @@
 {
-  "next_episode": 6,
+  "next_episode": 7,
   "episodes": [
-    {"n": 1, "slug": "nugget_merge_1", "date": "2026-11-06", "theme": "Nugget", "pattern": "rays", "base": [9, 9, 28], "voice": "mb-us2/fr1", "seed_range": [1, 10]},
-    {"n": 2, "slug": "croissant_merge_2", "date": "2026-11-07", "theme": "Croissant", "pattern": "spiral", "base": [20, 11, 30], "voice": "mb-fr4", "seed_range": [20, 32]},
-    {"n": 3, "slug": "chat_merge_3_v2", "date": "2026-11-08", "theme": "Chat", "pattern": "checker", "base": [12, 16, 34], "voice": "mb-fr1", "seed_range": [1, 15]},
-    {"n": 4, "slug": "manif_merge_4", "date": "2026-11-09", "theme": "Manif (personnages inventés)", "pattern": "rays", "base": [10, 14, 40], "voice": "mb-fr4", "seed_range": [40, 60]},
-    {"n": 5, "slug": "ferme_merge_5", "date": "2026-11-10", "theme": "Ferme", "pattern": "stripes", "base": [90, 175, 245], "voice": "mb-fr1", "seed_range": [60, 84]}
+    {
+      "n": 1,
+      "slug": "nugget_merge_1",
+      "date": "2026-11-06",
+      "theme": "Nugget",
+      "pattern": "rays",
+      "base": [
+        9,
+        9,
+        28
+      ],
+      "voice": "mb-us2/fr1",
+      "seed_range": [
+        1,
+        10
+      ]
+    },
+    {
+      "n": 2,
+      "slug": "croissant_merge_2",
+      "date": "2026-11-07",
+      "theme": "Croissant",
+      "pattern": "spiral",
+      "base": [
+        20,
+        11,
+        30
+      ],
+      "voice": "mb-fr4",
+      "seed_range": [
+        20,
+        32
+      ]
+    },
+    {
+      "n": 3,
+      "slug": "chat_merge_3_v2",
+      "date": "2026-11-08",
+      "theme": "Chat",
+      "pattern": "checker",
+      "base": [
+        12,
+        16,
+        34
+      ],
+      "voice": "mb-fr1",
+      "seed_range": [
+        1,
+        15
+      ]
+    },
+    {
+      "n": 4,
+      "slug": "manif_merge_4",
+      "date": "2026-11-09",
+      "theme": "Manif (personnages inventés)",
+      "pattern": "rays",
+      "base": [
+        10,
+        14,
+        40
+      ],
+      "voice": "mb-fr4",
+      "seed_range": [
+        40,
+        60
+      ]
+    },
+    {
+      "n": 5,
+      "slug": "ferme_merge_5",
+      "date": "2026-11-10",
+      "theme": "Ferme",
+      "pattern": "stripes",
+      "base": [
+        90,
+        175,
+        245
+      ],
+      "voice": "mb-fr1",
+      "seed_range": [
+        60,
+        84
+      ]
+    },
+    {
+      "n": 6,
+      "slug": "espace_merge_6",
+      "date": "2026-11-11",
+      "theme": "Espace",
+      "pattern": "dots",
+      "base": [
+        175,
+        140,
+        255
+      ],
+      "voice": "mb-fr4",
+      "seed_range": [
+        84,
+        96
+      ],
+      "youtube": "https://youtube.com/shorts/go_zdK8Hjd4",
+      "tiktok": "publié (en cours d'examen)",
+      "instagram": "publié (Reel)"
+    }
   ],
   "stats_notes": "TikTok : tous ~250 vues. Visionnage moyen ép1 8,2 s ; ép3 4,5 s (fond sombre) ; ép5 8,05 s, 1,6 % jusqu'au bout (fond clair + bruitages). Décrochage principal à 0:01."
 }

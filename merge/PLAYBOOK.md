@@ -1,10 +1,19 @@
 # MERGE quotidien — mode d'emploi de la tâche automatique
 
-Objectif : chaque jour, fabriquer **un nouvel épisode** de la série MERGE (jeu de fusion brainrot, chaîne 1jour1histoire) et le programmer dans Metricool à **15:00 (Europe/Paris)** sur Instagram (Reel), TikTok et YouTube (Short). Le tout sans aide humaine. Noé a choisi le mode **100 % automatique** : on ne lui demande pas de valider. On le prévient seulement à la fin, ou si quelque chose casse.
+Objectif : chaque jour, fabriquer **un nouvel épisode** de la série MERGE (jeu de fusion brainrot) et le **publier vers 15:00 (Europe/Paris)** en Reel Instagram, sur TikTok et en Short YouTube, **uniquement sur les comptes de la chaîne**. Le tout sans aide humaine. Noé a choisi le mode **100 % automatique** : on ne lui demande pas de valider. On le prévient seulement à la fin, ou si quelque chose casse.
+
+**Plus de Metricool** (offre gratuite épuisée) : la publication passe par le navigateur dédié de Noé, piloté avec les outils Claude in Chrome (`mcp__claude-in-chrome__*` ; charger d'abord le skill `chrome-browser`). La méthode est la même que pour la série histoire (`pipeline/PUBLISH.md`).
+
+Comptes autorisés, et rien d'autre (jamais les comptes perso de Noé) :
+- YouTube : chaîne « 1jour1histoire », ID `UCH1FzaGfLC2x_jAUzU9i5NQ` (studio.youtube.com)
+- TikTok : `@1jour1histoire676` (tiktok.com/tiktokstudio)
+- Instagram : `1jour1histoire67`
+- Navigateur : navigateur connecté `deviceId 1f793a53-2c61-41ee-bd69-3d158ec821c5` (`select_browser`). L'autre navigateur connecté est le profil perso de Noé : **ne jamais l'utiliser**.
 
 ## 0. Installation (environnement neuf à chaque fois)
 ```bash
-git clone https://github.com/<OWNER>/<REPO>.git merge && cd merge
+# add_repo(owner="1jour1histoire67", repo="1jour1histoire-videos", access="push"), puis :
+git clone --depth 1 https://github.com/1jour1histoire67/1jour1histoire-videos repo && cd repo/merge
 pip install --break-system-packages -q pymunk
 apt-get update -q && apt-get install -y -q espeak-ng mbrola mbrola-fr1 mbrola-fr4 sox ffmpeg
 ls /usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf   # police utilisée par le rendu
@@ -43,38 +52,28 @@ cd engine && python3 run_episode.py ../themes/NN-slug     # environ 4 minutes
 - Corriger puis relancer si besoin.
 - Contrôles automatiques : durée = 62 s, et loudness ≈ −13 LUFS (`ffmpeg -i X.mp4 -af ebur128=framelog=quiet -f null -`).
 
-## 4. Mettre la vidéo en ligne (lien public pour Metricool)
-```bash
-gh release create ep-NN themes/NN-slug/<slug>.mp4 --title "Épisode NN" --notes "MERGE épisode NN"
-```
-URL à donner à Metricool : `https://github.com/<OWNER>/<REPO>/releases/download/ep-NN/<slug>.mp4`
+## 4. Préparer le fichier à importer
+- `run_episode.py` produit aussi `themes/NN-slug/<slug>_web.mp4`, une copie de moins de 10 Mo (limite de l'extension).
+- **La copier dans le dossier de travail de la session** : `cp themes/NN-slug/<slug>_web.mp4 $HOME/upload_merge.mp4`. L'extension refuse les fichiers de `/mnt/user-data/outputs/`. Seul le dossier de travail (`$HOME`) fonctionne.
 
-## 5. Programmer dans Metricool
-- Marque `blogId = 7944960` (« 1jour1histoire67 », reliée à Instagram, TikTok et YouTube). Fuseau horaire : Europe/Paris.
-- Date : **aujourd'hui à 15:00**. S'il est déjà plus de 14:30, programmer le lendemain à 15:00 et le signaler.
-- Avant de programmer, appeler `getScheduledPosts` pour ce jour-là : aucun autre post MERGE ne doit déjà être prévu. Les séries « histoire » (10:00) et « foot » (soir) ne gênent pas.
-- Gabarit `info` (remplacer les champs entre chevrons) :
-```json
-{"autoPublish": true, "draft": false, "descendants": [], "firstCommentText": "", "hasNotReadNotes": false,
- "media": ["<URL release>"], "mediaAltText": [],
- "providers": [{"network": "instagram"}, {"network": "tiktok"}, {"network": "youtube"}],
- "publicationDate": {"dateTime": "<YYYY-MM-DD>T15:00:00", "timezone": "Europe/Paris"},
- "shortener": false, "smartLinkData": {"ids": []},
- "text": "<post.caption>",
- "instagramData": {"type": "REEL", "showReelOnFeed": true},
- "tiktokData": {"title": "<post.title>", "privacyOption": "PUBLIC_TO_EVERYONE", "disableComment": false, "disableDuet": false, "disableStitch": false, "autoAddMusic": false},
- "youtubeData": {"title": "<post.title> #shorts", "type": "short", "privacy": "public", "madeForKids": false, "category": "<post.youtube_category>", "tags": <post.tags>}}
-```
-- `tiktokData.title` est **obligatoire**. Les liens Google Drive `/view` ne marchent pas, ceux de GitHub oui.
-- Légende : une question, puis « Ton préféré ? Commente 1 à 8 👇 », puis 3 à 5 hashtags (thème + `#jeudefusion #brainrot`). Titre : « J'ai créé le/la [FINAL] [emoji] ».
+## 5. Publier via le navigateur dédié (une plateforme après l'autre)
+1. `list_connected_browsers`. Si `1f793a53-2c61-41ee-bd69-3d158ec821c5` n'est pas connecté (PC éteint ou navigateur fermé) : ne rien publier. Envoyer à Noé la vidéo (`SendUserFile`) et les textes (`SendUserMessage`), puis s'arrêter.
+2. `select_browser` sur ce deviceId, puis `tabs_context_mcp`, puis **ouvrir un nouvel onglet**. Ne jamais toucher aux onglets existants : la série histoire peut en utiliser un.
+3. **Vérifier le compte avant chaque plateforme**. YouTube Studio : `#entity-name` = « 1jour1histoire » et l'URL contient `UCH1FzaGfLC2x_jAUzU9i5NQ`. TikTok Studio, page `/tiktokstudio/content` : les liens `/@1jour1histoire676`. Instagram, page `/accounts/edit/` : le lien `/1jour1histoire67/`. Si le compte n'est pas le bon, ne rien publier sur cette plateforme et prévenir Noé.
+4. Ne jamais cliquer sur un champ de fichier. Trouver l'`input type=file` avec `find` (« file input ») puis utiliser `file_upload` avec `$HOME/upload_merge.mp4`.
+- **YouTube** : ouvrir `https://studio.youtube.com/channel/UCH1FzaGfLC2x_jAUzU9i5NQ/videos/upload?d=ud`, puis `file_upload` sur l'input `Filedata`. Remplir le titre et la description en JavaScript dans `ytcp-uploads-dialog` : `#textbox[0]` = `post.title + " #shorts"`, `#textbox[1]` = `post.caption`. Pour chacun : `el.focus(); document.execCommand('selectAll'); document.execCommand('insertText', false, txt)`. Cliquer `tp-yt-paper-radio-button[name="VIDEO_MADE_FOR_KIDS_NOT_MFK"]`, puis 3 fois `#next-button`, puis `tp-yt-paper-radio-button[name="PUBLIC"]`, puis `#done-button`. Relever le lien `youtube.com/shorts/...` dans la fenêtre de confirmation.
+- **TikTok** : ouvrir `https://www.tiktok.com/tiktokstudio/upload`, puis `file_upload`. Ne pas toucher au bandeau « vidéo non enregistrée… Supprimer / Continuer ». Pour la description : clic sur la zone de texte, `ctrl+a`, `Delete`, taper le texte, puis chaque hashtag suivi d'une espace avec 1 s d'attente entre chaque. **Ne jamais remplir l'éditeur avec execCommand** : la page plante. Garder « Maintenant » et « Tout le monde », puis cliquer sur le bouton « Publier ». Dans la liste, la vidéo apparaît « en cours d'examen / Moi uniquement » quelques minutes : c'est normal.
+- **Instagram** : sur `instagram.com`, cliquer sur le lien « Nouvelle publication Créer », puis « Publication ». Faire `file_upload`. Ouvrir le recadrage (icône en bas à gauche de l'aperçu) et choisir « Original ». Cliquer 2 fois sur « Suivant ». Écrire la légende (clic puis taper `post.caption`). Le bouton « Ajouter une mention IA » doit rester désactivé. Cliquer sur « Partager » et attendre « Votre reel a été partagé ».
+- Si une plateforme bloque après 2 ou 3 essais : passer à la suivante et noter l'échec.
+5. Fermer les onglets ouverts par la tâche.
 
 ## 6. Garder la trace
-- Ajouter l'épisode dans `history.json` : numéro, slug, date, thème, pattern, couleur de base, voix, seed_range, URL de la release, id du post Metricool.
+- Ajouter l'épisode dans `history.json` : numéro, slug, date, thème, pattern, couleur de base, voix, seed_range, lien YouTube, et l'état TikTok et Instagram.
 - Cocher le thème dans `BACKLOG.md`.
-- `git add themes/NN-slug/theme.json themes/NN-slug/sprites.py history.json BACKLOG.md && git commit && git push`. Ne pas committer `work/` ni les mp4 : ils sont dans `.gitignore`.
+- `git add themes/NN-slug/theme.json themes/NN-slug/sprites.py history.json BACKLOG.md && git commit && git push`. Ne pas committer `work/` ni les mp4 : ils sont dans `.gitignore`. Si le push est refusé : `git pull --rebase origin main`, puis repousser. Le dépôt est partagé avec la série histoire.
 
 ## 7. Prévenir Noé (SendUserMessage)
-Une ligne : épisode N, thème, heure de publication, lien vers le post Metricool. En cas d'échec à n'importe quelle étape, **ne rien programmer** : envoyer un message qui dit ce qui a échoué.
+Une ou deux lignes : épisode N, thème, liens et état sur les 3 plateformes. En cas d'échec avant la publication, **ne rien publier**. Envoyer un message qui dit ce qui a échoué. Si la vidéo est prête mais que le navigateur est absent, joindre la vidéo et les textes pour que Noé publie lui-même.
 
 ## Règles de contenu (toujours)
 - **Aucune personne réelle** (politicien, célébrité, influenceur), ni en caricature ni en fausse voix. Pas de personnage, de marque ou de mème protégé (Skibidi, Pokémon, Mario, logos…). Tout doit être inventé.
