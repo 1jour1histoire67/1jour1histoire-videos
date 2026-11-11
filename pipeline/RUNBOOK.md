@@ -2,7 +2,7 @@
 
 Objectif : chaque jour, produire **un nouvel épisode** « histoire vraie incroyable » (Short vertical 61–70 s) pour une sortie à **10h00 (Europe/Paris)** sur YouTube Shorts, Instagram (Reel) et TikTok. Noé a demandé une production et une publication automatiques : ne pas lui demander de valider, sauf blocage.
 
-**IMPORTANT (11/11/2026) : Noé ne veut plus passer par Metricool. N'utiliser AUCUN outil Metricool.** La publication se fait par les API officielles quand les accès sont configurés (voir étape 7), sinon Noé publie lui-même avec le kit envoyé.
+**IMPORTANT (11/11/2026) : Noé ne veut plus passer par Metricool. N'utiliser AUCUN outil Metricool.** Cette exécution (6h17) fabrique et prépare ; la publication est faite à 9h52 dans le profil Edge « 1jour1histoire » par une autre tâche qui suit `pipeline/PUBLISH.md`.
 
 Constantes :
 - **Comptes autorisés — UNIQUEMENT ceux de la chaîne** : Instagram `@1jour1histoire67`, TikTok `@1jour1histoire676`, YouTube chaîne ID `UCH1FzaGfLC2x_jAUzU9i5NQ`, GitHub `1jour1histoire67`. **Ne jamais publier sur un autre compte, en particulier les comptes personnels de Noé.** Avant toute publication par API, vérifier l'identité du compte authentifié (Instagram : `GET /me?fields=username` → `1jour1histoire67` ; YouTube : `channels?part=id&mine=true` → `UCH1FzaGfLC2x_jAUzU9i5NQ` ; TikTok : nom d'utilisateur `1jour1histoire676`) ; si ça ne correspond pas, ne rien publier et prévenir Noé. Fuseau `Europe/Paris`.
@@ -69,9 +69,13 @@ Préparer les textes :
 - **YouTube** — titre « <question/accroche ≤ 70 car.> 😳 Ép. N #shorts » ; description de 3–4 phrases qui résument sans tout dévoiler + « Tu aurais fait quoi ? 👇 » + « Abonne-toi : une histoire vraie incroyable chaque jour. » + 6 hashtags dont #histoirevraie #lesaviezvous #shorts ; non destiné aux enfants.
 - **Instagram / TikTok** — légende courte : accroche + « Ép. N » + question + 6 hashtags dont #histoirevraie #pourtoi.
 - **Commentaire à épingler** — une question qui fait réagir.
-Puis :
-- Si le document `claude/secrets/acces-api.md` du projet existe et contient des accès valides : publier par API selon la section « Publication par API » de ce document, à 10h00 (si la plateforme permet la programmation) ou dès que la vidéo est prête après 9h55.
-- Sinon (cas actuel) : envoyer à Noé la vidéo (`SendUserFile`) puis un `SendUserMessage` contenant le « kit de publication » prêt à copier-coller (titre YouTube, description, légende Instagram/TikTok, commentaire, instant conseillé pour la miniature) et lui rappeler de publier à 10h.
+Puis préparer la publication (elle est faite à 9h52 par la tâche « Instagram/TikTok/YouTube 10h » qui suit `pipeline/PUBLISH.md` dans Edge) :
+1. Version légère pour l'envoi navigateur (**≤ 9,5 Mo**, limite 10 Mo) : `D=<durée en s>; VB=$(python3 -c "print(int(9.3e6*8/$D/1000) - 100)")` puis 2 passes :
+   `ffmpeg -y -i final/EpisodeN_Slug.mp4 -c:v libx264 -preset veryfast -b:v ${VB}k -pass 1 -an -f null /dev/null && ffmpeg -y -i final/EpisodeN_Slug.mp4 -c:v libx264 -preset veryfast -b:v ${VB}k -pass 2 -c:a aac -b:a 96k -movflags +faststart final/EpisodeN_Slug_upload.mp4` → vérifier la taille.
+2. Pousser dans `videos/` du dépôt les deux fichiers (`EpisodeN_Slug.mp4` et `EpisodeN_Slug_upload.mp4`).
+3. Écrire `pipeline/a-publier.json` (commit + push) :
+   `{"date": "AAAA-MM-JJ", "episode": N, "upload": "videos/EpisodeN_Slug_upload.mp4", "youtube": {"title": "...", "description": "..."}, "caption": "...", "comment": "...", "published": {"youtube": false, "tiktok": false, "instagram": false}}`
+4. Envoyer à Noé la vidéo (`SendUserFile`) + un message court : titre, sortie prévue à 10h via Edge (PC allumé et Edge ouvert sur le profil 1jour1histoire), et le kit de publication complet au cas où il devrait publier lui-même.
 
 ## 8. Clore
 1. Ajouter une ligne à la liste des épisodes : `pipeline/episodes-publies.md` du dépôt (commit + push) ET `claude/episodes-publies.md` du projet (project_read puis project_write du contenu complet) : N, date, sujet, titre YouTube, sources principales.
