@@ -61,6 +61,7 @@ cd <clone> && git fetch -q origin main && git reset -q --hard origin/main
 mkdir -p videos && cp $W/epN/final/EpisodeN_Slug.mp4 videos/
 git add videos && git -c user.name="Claude" -c user.email="noreply@anthropic.com" commit -qm "Ép. N" && git push -q origin main
 ```
+Le dépôt est partagé avec d'autres séries de Noé (`merge/`, « De la rue au sommet ») : ne toucher qu'à `pipeline/` et à ses propres fichiers dans `videos/`. Si le push est refusé : `git pull --rebase -q origin main` puis repousser (3 essais max).
 URL publique : `https://raw.githubusercontent.com/1jour1histoire67/1jour1histoire-videos/main/videos/EpisodeN_Slug.mp4`. Vérifier avec `curl -sIL <URL> | grep -iE "^HTTP|content-length"` (200 et bonne taille).
 
 ## 7. Publier (sans Metricool)
