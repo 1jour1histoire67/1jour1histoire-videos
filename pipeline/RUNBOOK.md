@@ -1,10 +1,12 @@
 # 1jour1histoire — mode d'emploi de l'épisode quotidien (exécution automatique)
 
-Objectif : chaque jour, produire **un nouvel épisode** « histoire vraie incroyable » (Short vertical 61–70 s) et le **programmer dans Metricool à 10h00 (Europe/Paris) le jour même** sur YouTube Shorts, Instagram (Reel) et TikTok. Noé a demandé une production et une publication 100 % automatiques : ne pas lui demander de valider, sauf blocage.
+Objectif : chaque jour, produire **un nouvel épisode** « histoire vraie incroyable » (Short vertical 61–70 s) pour une sortie à **10h00 (Europe/Paris)** sur YouTube Shorts, Instagram (Reel) et TikTok. Noé a demandé une production et une publication automatiques : ne pas lui demander de valider, sauf blocage.
+
+**IMPORTANT (11/11/2026) : Noé ne veut plus passer par Metricool. N'utiliser AUCUN outil Metricool.** La publication se fait par les API officielles quand les accès sont configurés (voir étape 7), sinon Noé publie lui-même avec le kit envoyé.
 
 Constantes :
-- Metricool : brand `1jour1histoire67`, **blogId `7944960`**, fuseau `Europe/Paris`.
-- Hébergement vidéo : dépôt GitHub public **`1jour1histoire-videos`** (propriétaire = compte GitHub de Noé, à retrouver avec `list_repos`).
+- Comptes : `1jour1histoire67` sur Instagram, TikTok et YouTube. Fuseau `Europe/Paris`.
+- Hébergement vidéo + chaîne de montage : dépôt GitHub public **`1jour1histoire67/1jour1histoire-videos`** (dossier `pipeline/`, vidéos dans `videos/`).
 - Voix : Microsoft « Henri » via edge-tts (domaine `speech.platform.bing.com` autorisé par Noé).
 - Fichiers de la chaîne de montage (documents du projet) : `claude/pipeline/lib_video.py`, `claude/pipeline/voice.py`, `claude/pipeline/setup.sh`, `claude/pipeline/example_episode.py`.
 - Liste des épisodes déjà faits : `claude/episodes-publies.md` (à lire pour le numéro N et pour éviter les doublons, à compléter à la fin).
@@ -53,19 +55,24 @@ ffprobe -v error -show_entries format=duration,size -of compact final/EpisodeN_S
 Extraire 3 images du MP4 final (ffmpeg -ss) et les regarder avant de publier.
 
 ## 6. Héberger sur GitHub
-1. `list_repos` avec `query: "1jour1histoire-videos"` → `owner/repo`. Puis `add_repo(owner, repo, access="push")` et suivre ses instructions (clone).
-2. Essayer d'abord une release : `gh release create epN final/EpisodeN_Slug.mp4 --repo OWNER/1jour1histoire-videos --title "Ép. N" --notes "Titre"` → URL `https://github.com/OWNER/1jour1histoire-videos/releases/download/epN/EpisodeN_Slug.mp4`.
-3. Si `gh` échoue : copier le MP4 dans `videos/` du clone, commit, push → URL `https://raw.githubusercontent.com/OWNER/1jour1histoire-videos/main/videos/EpisodeN_Slug.mp4`.
-4. Vérifier : `curl -sIL <URL> | grep -iE "^HTTP|content-type|content-length"` → 200 et une taille cohérente.
-**Si GitHub n'est pas connecté ou le dépôt introuvable** : ne pas chercher d'autre hébergeur. Envoyer la vidéo à Noé (`SendUserFile`), lui demander par `SendUserMessage` (et `PushNotification` si disponible) de la mettre sur Google Drive en « Tous les utilisateurs disposant du lien » et de coller le lien ici, puis programmer avec ce lien quand il répond.
+`gh` n'est pas authentifié : passer par git. Dans le clone du dépôt (fait à l'étape 1) :
+```
+cd <clone> && git fetch -q origin main && git reset -q --hard origin/main
+mkdir -p videos && cp $W/epN/final/EpisodeN_Slug.mp4 videos/
+git add videos && git -c user.name="Claude" -c user.email="noreply@anthropic.com" commit -qm "Ép. N" && git push -q origin main
+```
+URL publique : `https://raw.githubusercontent.com/1jour1histoire67/1jour1histoire-videos/main/videos/EpisodeN_Slug.mp4`. Vérifier avec `curl -sIL <URL> | grep -iE "^HTTP|content-length"` (200 et bonne taille).
 
-## 7. Programmer dans Metricool (2 appels `createScheduledPost`, blogId 7944960)
-Date : aujourd'hui `T10:00:00+01:00` (ou +02:00 en heure d'été). S'il est déjà plus de 09:45 à Paris, programmer 15 minutes plus tard que maintenant.
-- Appel 1 — YouTube : `providers [{"network":"youtube"}]`, `media [URL]`, `text` = description (3–4 phrases qui résument sans tout dévoiler + « Tu aurais fait quoi ? 👇 » + « Abonne-toi : une histoire vraie incroyable chaque jour. » + 6 hashtags dont #histoirevraie #lesaviezvous #shorts), `firstCommentText` = question qui fait réagir, `videoCoverMilliseconds` = instant du tampon d'accroche (ms), `youtubeData {title: "<question/accroche ≤ 70 car.> 😳 Ép. N #shorts", type: "short", privacy: "public", tags: [...], category: "EDUCATION", madeForKids: false, isAiGeneratedContent: false}`, `autoPublish: true`, `draft: false`, `publicationDate {dateTime, timezone: "Europe/Paris"}`.
-- Appel 2 — Instagram + TikTok : `media` = **l'URL static.metricool.com renvoyée par l'appel 1**, `text` = légende courte (accroche + « Ép. N » + question + 6 hashtags dont #histoirevraie #pourtoi), même `firstCommentText` et `videoCoverMilliseconds`, `instagramData {type:"REEL", showReelOnFeed:true, isAiGenerated:false}`, `tiktokData {title: <accroche courte> (obligatoire), privacyOption:"PUBLIC_TO_EVERYONE", disableComment:false, disableDuet:false, disableStitch:false, commercialContentThirdParty:false, commercialContentOwnBrand:false, autoAddMusic:false, isAigc:false}`.
-Ne jamais modifier ni supprimer les autres publications Metricool.
+## 7. Publier (sans Metricool)
+Préparer les textes :
+- **YouTube** — titre « <question/accroche ≤ 70 car.> 😳 Ép. N #shorts » ; description de 3–4 phrases qui résument sans tout dévoiler + « Tu aurais fait quoi ? 👇 » + « Abonne-toi : une histoire vraie incroyable chaque jour. » + 6 hashtags dont #histoirevraie #lesaviezvous #shorts ; non destiné aux enfants.
+- **Instagram / TikTok** — légende courte : accroche + « Ép. N » + question + 6 hashtags dont #histoirevraie #pourtoi.
+- **Commentaire à épingler** — une question qui fait réagir.
+Puis :
+- Si le document `claude/secrets/acces-api.md` du projet existe et contient des accès valides : publier par API selon la section « Publication par API » de ce document, à 10h00 (si la plateforme permet la programmation) ou dès que la vidéo est prête après 9h55.
+- Sinon (cas actuel) : envoyer à Noé la vidéo (`SendUserFile`) puis un `SendUserMessage` contenant le « kit de publication » prêt à copier-coller (titre YouTube, description, légende Instagram/TikTok, commentaire, instant conseillé pour la miniature) et lui rappeler de publier à 10h.
 
 ## 8. Clore
-1. Ajouter une ligne à `claude/episodes-publies.md` (project_read puis project_write du contenu complet) : N, date, sujet, titre YouTube, sources principales.
-2. Envoyer à Noé le MP4 (`SendUserFile`) + un message court : titre, heure de sortie, rappel d'ajouter le commentaire à la main sur TikTok.
+1. Ajouter une ligne à la liste des épisodes : `pipeline/episodes-publies.md` du dépôt (commit + push) ET `claude/episodes-publies.md` du projet (project_read puis project_write du contenu complet) : N, date, sujet, titre YouTube, sources principales.
+2. Si ce n'est pas déjà fait à l'étape 7 : envoyer à Noé le MP4 (`SendUserFile`) + un message court (titre, où et quand c'est publié, ou le kit à publier).
 3. En cas d'échec à n'importe quelle étape : ne rien publier d'incomplet, expliquer à Noé ce qui a bloqué (`SendUserMessage`).
