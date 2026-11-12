@@ -1,5 +1,5 @@
 {
-  "next_episode": 7,
+  "next_episode": 8,
   "episodes": [
     {
       "n": 1,
@@ -105,6 +105,27 @@
       "youtube": "https://youtube.com/shorts/go_zdK8Hjd4",
       "tiktok": "publié (en cours d'examen)",
       "instagram": "publié (Reel)"
+    },
+    {
+      "n": 7,
+      "slug": "fastfood_merge_7",
+      "date": "2026-11-12",
+      "theme": "Fast-food",
+      "pattern": "spiral",
+      "base": [
+        255,
+        185,
+        60
+      ],
+      "voice": "mb-fr1",
+      "seed_range": [
+        100,
+        130
+      ],
+      "youtube": "https://youtube.com/shorts/vSAS2q8GHjc",
+      "tiktok": "publié (en cours d'examen)",
+      "instagram": "publié (Reel)",
+      "note": "YouTube et TikTok ont reçu une 1re version dont les sous-titres affichaient l'orthographe phonétique (« Beurgueur », « Menu iks iks elle ») ; Instagram a la version corrigée. Leçon : le 2e champ de LEVELS et final_voice s'affichent en sous-titres, mettre la prononciation uniquement dans say_replace."
     }
   ],
   "stats_notes": "TikTok : tous ~250 vues. Visionnage moyen ép1 8,2 s ; ép3 4,5 s (fond sombre) ; ép5 8,05 s, 1,6 % jusqu'au bout (fond clair + bruitages). Décrochage principal à 0:01."

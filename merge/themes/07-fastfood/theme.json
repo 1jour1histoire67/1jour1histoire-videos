@@ -1,0 +1,188 @@
+{
+  "slug": "fastfood_merge_7",
+  "episode": 7,
+  "hook_title": "MENU FINAL !",
+  "hook_voice": "Devine ce que devient cette frite !",
+  "twist_title": "UN BROCOLI !",
+  "twist_boom": "AU RÉGIME !",
+  "twist_voice": [
+    "Oh non ! Un brocoli !",
+    "C'est le régime pour tout le monde !",
+    "Mais les frites résistent !"
+  ],
+  "final_intro": "TU AS CRÉÉ LE",
+  "final_voice": "Burger... cosmique !",
+  "extra": {
+    "2": [
+      "Il a la frite !"
+    ],
+    "3": [
+      "Avec ou sans cornichon ?"
+    ],
+    "4": [
+      "Double fromage, s'il vous plaît !"
+    ],
+    "5": [
+      "Et une boisson géante !"
+    ],
+    "6": [
+      "Pouet pouet, livraison !"
+    ]
+  },
+  "fill": [
+    "Ça sent la friture ici !",
+    "Une frite, deux frites, trois frites !",
+    "Le chef va être débordé !",
+    "Allez, encore un !",
+    "Regarde celui-là !",
+    "Ça rebondit dans la friteuse !",
+    "Quel festin !",
+    "Ça monte, ça monte !",
+    "Qui va gagner ?",
+    "Sauce ketchup ou mayo ?",
+    "Encore une fusion !",
+    "On y est presque !",
+    "Ça devient sérieux là.",
+    "J'ai trop faim !"
+  ],
+  "say_replace": {
+    "XXL": "iks iks elle",
+    "BURGER": "beurgueur",
+    "Burger": "Beurgueur",
+    "burger": "beurgueur"
+  },
+  "colors": {
+    "base": [
+      255,
+      185,
+      60
+    ],
+    "stripe": [
+      255,
+      238,
+      150
+    ],
+    "inner": [
+      255,
+      250,
+      232
+    ],
+    "inner_edge": [
+      30,
+      20,
+      0
+    ],
+    "neon": [
+      [
+        230,
+        50,
+        50
+      ],
+      [
+        230,
+        50,
+        50
+      ],
+      [
+        255,
+        120,
+        0
+      ],
+      [
+        40,
+        170,
+        70
+      ],
+      [
+        40,
+        140,
+        240
+      ],
+      [
+        255,
+        70,
+        160
+      ],
+      [
+        150,
+        70,
+        230
+      ],
+      [
+        230,
+        40,
+        40
+      ]
+    ]
+  },
+  "pattern": "spiral",
+  "voice": {
+    "engine": "mb-fr1",
+    "pitch": 62,
+    "speed": 178
+  },
+  "music": {
+    "bpm": 144,
+    "chords": [
+      [
+        62,
+        65,
+        69,
+        74
+      ],
+      [
+        67,
+        70,
+        74,
+        79
+      ],
+      [
+        60,
+        64,
+        67,
+        72
+      ],
+      [
+        65,
+        69,
+        72,
+        77
+      ]
+    ]
+  },
+  "sfx_reveal": {
+    "2": [
+      "fart"
+    ],
+    "3": [
+      "ding",
+      "squeak:1.3"
+    ],
+    "4": [
+      "clown_honk"
+    ],
+    "5": [
+      "airhorn3"
+    ],
+    "6": [
+      "slide_whistle:1",
+      "vine_boom"
+    ],
+    "7": []
+  },
+  "seed_range": [
+    100,
+    130
+  ],
+  "post": {
+    "caption": "Devine le menu final 🍔👀 Ton préféré ? Commente 1 à 8 👇 #fastfood #burger #jeudefusion #brainrot",
+    "title": "J'ai créé le BURGER COSMIQUE 🍔",
+    "youtube_category": "ENTERTAINMENT",
+    "tags": [
+      "fast-food",
+      "burger",
+      "jeu de fusion",
+      "brainrot"
+    ]
+  }
+}

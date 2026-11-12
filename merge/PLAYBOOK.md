@@ -32,9 +32,9 @@ Prendre `themes/05-ferme/` comme modèle.
   - `voice.engine` : alterner `mb-fr1` (voix d'homme) et `mb-fr4` (voix de femme). `pitch` entre 55 et 70, `speed` entre 165 et 180.
   - `music` : un `bpm` et des accords différents de l'épisode précédent.
   - `sfx_reveal` : un bruitage marquant par nouveau niveau. Fonctions disponibles dans `engine/audio.py` : `vine_boom`, `airhorn`, `airhorn3`, `squeak:<hauteur>`, `record_scratch`, `slide_whistle:1` (montée) ou `slide_whistle:0` (descente), `clown_honk`, `fart`, `drumroll`, `crash`, `cheer`, `howl`, `dun_dun_dun`, `sad_trombone`, `pew`, `ding`, `boom`.
-  - `seed_range` : une plage de 12 graines jamais utilisée (voir `history.json`).
+  - `seed_range` : une plage de 12 graines jamais utilisée (voir `history.json`). Si le rendu répond « élargir seed_range », passer à ~30 graines.
   - `final_intro` : « TU AS CRÉÉ LE » ou « TU AS CRÉÉ LA » selon le genre du nom final.
-  - `say_replace` : corrections de prononciation pour espeak (sigles, mots anglais…).
+  - `say_replace` : corrections de prononciation pour espeak (sigles, mots anglais…). **Attention** : le 2e champ de `LEVELS`, `final_voice`, `extra`, `fill` et `twist_voice` sont aussi affichés en sous-titres : les écrire en bon français et mettre l'orthographe phonétique **uniquement** dans `say_replace` (épisode 7 : « Beurgueur » s'est retrouvé à l'écran).
 - **`sprites.py`** : `LEVELS` (8 niveaux : nom affiché, nom prononcé, rayon), `BOMB_R`, `make_sprite(level)`, `make_bomb()` (le personnage du rebondissement), `silhouette()` et `build_all()`.
   - Rayons conseillés : 24, 36, 50, 64, 80, 98, 120, 150. Les niveaux 0 à 3 doivent passer dans l'entonnoir (rayon < 85).
   - Style kawaii, avec un contour épais. Les fonctions `gradient_fill`, `draw_body`, `draw_face`, `star` et `blob_points` sont dans `engine/sprites_base.py`.
