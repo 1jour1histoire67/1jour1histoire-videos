@@ -1,5 +1,5 @@
 {
-  "next_episode": 8,
+  "next_episode": 9,
   "episodes": [
     {
       "n": 1,
@@ -126,6 +126,27 @@
       "tiktok": "publié (en cours d'examen)",
       "instagram": "publié (Reel)",
       "note": "YouTube et TikTok ont reçu une 1re version dont les sous-titres affichaient l'orthographe phonétique (« Beurgueur », « Menu iks iks elle ») ; Instagram a la version corrigée. Leçon : le 2e champ de LEVELS et final_voice s'affichent en sous-titres, mettre la prononciation uniquement dans say_replace."
+    },
+    {
+      "n": 8,
+      "slug": "dinosaures_merge_8",
+      "date": "2026-11-13",
+      "theme": "Dinosaures",
+      "pattern": "checker",
+      "base": [
+        150,
+        225,
+        120
+      ],
+      "voice": "mb-fr4",
+      "seed_range": [
+        130,
+        160
+      ],
+      "youtube": "https://youtube.com/shorts/2J3zsfbYU2s",
+      "tiktok": "publié (en cours d'examen)",
+      "instagram": "publié (Reel)",
+      "note": "file_upload refuse $HOME=/root dans cet environnement : copier upload_merge.mp4 dans le dossier de travail de la session (ici la racine du dépôt clone, ne pas le committer)."
     }
   ],
   "stats_notes": "TikTok : tous ~250 vues. Visionnage moyen ép1 8,2 s ; ép3 4,5 s (fond sombre) ; ép5 8,05 s, 1,6 % jusqu'au bout (fond clair + bruitages). Décrochage principal à 0:01."

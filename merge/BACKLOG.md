@@ -4,7 +4,7 @@ Chaque ligne donne : les 8 niveaux, puis le rebondissement (le personnage de `ma
 
 - [x] **ESPACE** (ép. 6) : Caillou → Astéroïde → Lune → Planète → Planète à anneaux → Étoile → Supernova → TROU NOIR. Rebondissement : UN OVNI ! (soucoupe qui aspire). Bruitages : pew, sifflet, vine_boom.
 - [x] **FAST-FOOD** (ép. 7) : Frite → Cornet de frites → Burger → Double burger → Menu XXL → Camion à burgers → Restaurant → BURGER COSMIQUE. Rebondissement : UN BROCOLI ! (le régime). Bruitages : prout, klaxon, ding.
-- [ ] **DINOSAURES** : Œuf → Bébé dino → Raptor → Tricératops → Stégosaure → Diplodocus → T-Rex → DINO-ROI. Rebondissement : UNE MÉTÉORITE ! Bruitages : vine_boom, howl grave, crash.
+- [x] **DINOSAURES** (ép. 8) : Œuf → Bébé dino → Raptor → Tricératops → Stégosaure → Diplodocus → T-Rex → DINO-ROI. Rebondissement : UNE MÉTÉORITE ! Bruitages : vine_boom, howl grave, crash.
 - [ ] **ÉCOLE** : Gomme → Crayon → Cahier → Trousse → Cartable → Pion → Prof → PROVISEUR SUPRÊME (personnages inventés). Rebondissement : INTERRO SURPRISE ! Bruitages : ding, sad_trombone, record_scratch.
 - [ ] **OCÉAN** : Bulle → Crevette → Poisson → Crabe → Poulpe → Dauphin → Requin → BALEINE CÉLESTE. Rebondissement : UN FILET ! Bruitages : squeak, slide_whistle, vine_boom.
 - [ ] **FRUITS** : Pépin → Cerise → Fraise → Citron → Orange → Pomme → Ananas → PASTÈQUE DORÉE. Rebondissement : UN MIXEUR ! Bruitages : squeak, clown_honk, airhorn3.

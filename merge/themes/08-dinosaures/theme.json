@@ -1,0 +1,86 @@
+{
+  "slug": "dinosaures_merge_8",
+  "episode": 8,
+  "hook_title": "DINO FINAL !",
+  "hook_voice": "Devine ce que devient cet œuf !",
+  "twist_title": "UNE MÉTÉORITE !",
+  "twist_boom": "AUX ABRIS !",
+  "twist_voice": [
+    "Oh non ! Une météorite !",
+    "Tout le monde aux abris !",
+    "Mais les dinos sont trop costauds !"
+  ],
+  "final_intro": "TU AS CRÉÉ LE",
+  "final_voice": "Dino... roi !",
+  "extra": {
+    "2": ["Il a de sacrées griffes !"],
+    "3": ["Trois cornes, zéro peur !"],
+    "4": ["Joli dos à piquants !"],
+    "5": ["Quel cou interminable !"],
+    "6": ["Des petits bras, une grosse voix !"]
+  },
+  "fill": [
+    "Ça craque dans la jungle !",
+    "Un œuf, deux œufs, trois œufs !",
+    "La préhistoire s'agite !",
+    "Allez, encore un !",
+    "Regarde celui-là !",
+    "Ça rebondit dans le volcan !",
+    "Quelle famille !",
+    "Ça grandit, ça grandit !",
+    "Qui sera le plus grand ?",
+    "Attention, ça mord pas !",
+    "Encore une fusion !",
+    "On y est presque !",
+    "Ça devient énorme là.",
+    "Roar ! Enfin, un petit roar !"
+  ],
+  "say_replace": {
+    "T-REX": "té rex",
+    "T-Rex": "té rex",
+    "Roar": "Roooar",
+    "DINO": "dino"
+  },
+  "colors": {
+    "base": [150, 225, 120],
+    "stripe": [205, 248, 165],
+    "inner": [248, 255, 236],
+    "inner_edge": [20, 40, 0],
+    "neon": [
+      [240, 150, 40],
+      [240, 150, 40],
+      [60, 150, 60],
+      [230, 110, 30],
+      [60, 130, 230],
+      [150, 80, 220],
+      [30, 170, 150],
+      [230, 60, 50]
+    ]
+  },
+  "pattern": "checker",
+  "voice": {"engine": "mb-fr4", "pitch": 60, "speed": 172},
+  "music": {
+    "bpm": 126,
+    "chords": [
+      [57, 60, 64, 69],
+      [53, 57, 60, 65],
+      [55, 59, 62, 67],
+      [52, 56, 59, 64]
+    ]
+  },
+  "sfx_reveal": {
+    "2": ["squeak:0.9"],
+    "3": ["vine_boom"],
+    "4": ["record_scratch"],
+    "5": ["slide_whistle:1"],
+    "6": ["howl", "vine_boom"],
+    "7": []
+  },
+  "seed_range": [130, 160],
+  "post": {
+    "caption": "Devine le dino final 🦖👀 Ton préféré ? Commente 1 à 8 👇 #dinosaure #trex #jeudefusion #brainrot",
+    "title": "J'ai créé le DINO-ROI 🦖",
+    "youtube_category": "ENTERTAINMENT",
+    "tags": ["dinosaure", "t-rex", "jeu de fusion", "brainrot"]
+  }
+}
