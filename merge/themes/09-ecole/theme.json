@@ -1,0 +1,186 @@
+{
+  "slug": "ecole_merge_9",
+  "episode": 9,
+  "hook_title": "CHEF FINAL !",
+  "hook_voice": "Devine ce que devient cette gomme !",
+  "twist_title": "INTERRO SURPRISE !",
+  "twist_boom": "SILENCE !",
+  "twist_voice": [
+    "Oh non ! Une interro surprise !",
+    "Sortez une feuille, rangez vos affaires !",
+    "Trop tard, on a déjà tout révisé !"
+  ],
+  "final_intro": "TU AS CRÉÉ LE",
+  "final_voice": "Proviseur... suprême !",
+  "extra": {
+    "2": [
+      "Un cahier tout propre, pour l'instant !"
+    ],
+    "3": [
+      "La trousse est pleine à craquer !"
+    ],
+    "4": [
+      "Le cartable pèse une tonne !"
+    ],
+    "5": [
+      "Pas de course dans les couloirs !"
+    ],
+    "6": [
+      "Silence, on ouvre le livre page douze !"
+    ]
+  },
+  "fill": [
+    "Ça sonne, c'est la récré !",
+    "Qui a piqué ma gomme ?",
+    "Allez, encore un !",
+    "Regarde celui-là !",
+    "Ça s'entasse dans la classe !",
+    "Attention, pas de bavardage !",
+    "Encore une fusion !",
+    "Le tableau tremble !",
+    "On y est presque !",
+    "Ça devient énorme là.",
+    "Qui sera le chef de l'école ?",
+    "Levez la main pour fusionner !",
+    "Zéro faute, vingt sur vingt !",
+    "Vite, avant la cloche !"
+  ],
+  "say_replace": {
+    "récré": "rékré",
+    "interro": "intéro",
+    "Interro": "Intéro",
+    "INTERRO": "intéro"
+  },
+  "colors": {
+    "base": [
+      110,
+      215,
+      225
+    ],
+    "stripe": [
+      175,
+      240,
+      245
+    ],
+    "inner": [
+      250,
+      255,
+      252
+    ],
+    "inner_edge": [
+      0,
+      35,
+      40
+    ],
+    "neon": [
+      [
+        240,
+        90,
+        150
+      ],
+      [
+        240,
+        90,
+        150
+      ],
+      [
+        245,
+        180,
+        20
+      ],
+      [
+        50,
+        120,
+        230
+      ],
+      [
+        40,
+        170,
+        90
+      ],
+      [
+        230,
+        60,
+        60
+      ],
+      [
+        140,
+        80,
+        220
+      ],
+      [
+        245,
+        150,
+        30
+      ]
+    ]
+  },
+  "pattern": "rays",
+  "voice": {
+    "engine": "mb-fr1",
+    "pitch": 64,
+    "speed": 176
+  },
+  "music": {
+    "bpm": 118,
+    "chords": [
+      [
+        60,
+        64,
+        67,
+        72
+      ],
+      [
+        62,
+        65,
+        69,
+        74
+      ],
+      [
+        67,
+        71,
+        74,
+        79
+      ],
+      [
+        64,
+        67,
+        71,
+        76
+      ]
+    ]
+  },
+  "sfx_reveal": {
+    "2": [
+      "ding"
+    ],
+    "3": [
+      "squeak:1.2"
+    ],
+    "4": [
+      "record_scratch"
+    ],
+    "5": [
+      "clown_honk"
+    ],
+    "6": [
+      "dun_dun_dun"
+    ],
+    "7": []
+  },
+  "seed_range": [
+    160,
+    190
+  ],
+  "post": {
+    "caption": "Devine qui dirige l'école à la fin 🏫👀 Ton niveau préféré ? Commente 1 à 8 👇 #ecole #rentree #jeudefusion #brainrot",
+    "title": "J'ai créé le PROVISEUR SUPRÊME 🏫",
+    "youtube_category": "ENTERTAINMENT",
+    "tags": [
+      "école",
+      "interro surprise",
+      "jeu de fusion",
+      "brainrot"
+    ]
+  }
+}

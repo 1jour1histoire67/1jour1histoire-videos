@@ -1,153 +1,174 @@
 {
-  "next_episode": 9,
-  "episodes": [
-    {
-      "n": 1,
-      "slug": "nugget_merge_1",
-      "date": "2026-11-06",
-      "theme": "Nugget",
-      "pattern": "rays",
-      "base": [
-        9,
-        9,
-        28
-      ],
-      "voice": "mb-us2/fr1",
-      "seed_range": [
-        1,
-        10
-      ]
-    },
-    {
-      "n": 2,
-      "slug": "croissant_merge_2",
-      "date": "2026-11-07",
-      "theme": "Croissant",
-      "pattern": "spiral",
-      "base": [
-        20,
-        11,
-        30
-      ],
-      "voice": "mb-fr4",
-      "seed_range": [
-        20,
-        32
-      ]
-    },
-    {
-      "n": 3,
-      "slug": "chat_merge_3_v2",
-      "date": "2026-11-08",
-      "theme": "Chat",
-      "pattern": "checker",
-      "base": [
-        12,
-        16,
-        34
-      ],
-      "voice": "mb-fr1",
-      "seed_range": [
-        1,
-        15
-      ]
-    },
-    {
-      "n": 4,
-      "slug": "manif_merge_4",
-      "date": "2026-11-09",
-      "theme": "Manif (personnages inventés)",
-      "pattern": "rays",
-      "base": [
-        10,
-        14,
-        40
-      ],
-      "voice": "mb-fr4",
-      "seed_range": [
-        40,
-        60
-      ]
-    },
-    {
-      "n": 5,
-      "slug": "ferme_merge_5",
-      "date": "2026-11-10",
-      "theme": "Ferme",
-      "pattern": "stripes",
-      "base": [
-        90,
-        175,
-        245
-      ],
-      "voice": "mb-fr1",
-      "seed_range": [
-        60,
-        84
-      ]
-    },
-    {
-      "n": 6,
-      "slug": "espace_merge_6",
-      "date": "2026-11-11",
-      "theme": "Espace",
-      "pattern": "dots",
-      "base": [
-        175,
-        140,
-        255
-      ],
-      "voice": "mb-fr4",
-      "seed_range": [
-        84,
-        96
-      ],
-      "youtube": "https://youtube.com/shorts/go_zdK8Hjd4",
-      "tiktok": "publié (en cours d'examen)",
-      "instagram": "publié (Reel)"
-    },
-    {
-      "n": 7,
-      "slug": "fastfood_merge_7",
-      "date": "2026-11-12",
-      "theme": "Fast-food",
-      "pattern": "spiral",
-      "base": [
-        255,
-        185,
-        60
-      ],
-      "voice": "mb-fr1",
-      "seed_range": [
-        100,
-        130
-      ],
-      "youtube": "https://youtube.com/shorts/vSAS2q8GHjc",
-      "tiktok": "publié (en cours d'examen)",
-      "instagram": "publié (Reel)",
-      "note": "YouTube et TikTok ont reçu une 1re version dont les sous-titres affichaient l'orthographe phonétique (« Beurgueur », « Menu iks iks elle ») ; Instagram a la version corrigée. Leçon : le 2e champ de LEVELS et final_voice s'affichent en sous-titres, mettre la prononciation uniquement dans say_replace."
-    },
-    {
-      "n": 8,
-      "slug": "dinosaures_merge_8",
-      "date": "2026-11-13",
-      "theme": "Dinosaures",
-      "pattern": "checker",
-      "base": [
-        150,
-        225,
-        120
-      ],
-      "voice": "mb-fr4",
-      "seed_range": [
-        130,
-        160
-      ],
-      "youtube": "https://youtube.com/shorts/2J3zsfbYU2s",
-      "tiktok": "publié (en cours d'examen)",
-      "instagram": "publié (Reel)",
-      "note": "file_upload refuse $HOME=/root dans cet environnement : copier upload_merge.mp4 dans le dossier de travail de la session (ici la racine du dépôt clone, ne pas le committer)."
-    }
-  ],
-  "stats_notes": "TikTok : tous ~250 vues. Visionnage moyen ép1 8,2 s ; ép3 4,5 s (fond sombre) ; ép5 8,05 s, 1,6 % jusqu'au bout (fond clair + bruitages). Décrochage principal à 0:01."
+ "next_episode": 10,
+ "episodes": [
+  {
+   "n": 1,
+   "slug": "nugget_merge_1",
+   "date": "2026-11-06",
+   "theme": "Nugget",
+   "pattern": "rays",
+   "base": [
+    9,
+    9,
+    28
+   ],
+   "voice": "mb-us2/fr1",
+   "seed_range": [
+    1,
+    10
+   ]
+  },
+  {
+   "n": 2,
+   "slug": "croissant_merge_2",
+   "date": "2026-11-07",
+   "theme": "Croissant",
+   "pattern": "spiral",
+   "base": [
+    20,
+    11,
+    30
+   ],
+   "voice": "mb-fr4",
+   "seed_range": [
+    20,
+    32
+   ]
+  },
+  {
+   "n": 3,
+   "slug": "chat_merge_3_v2",
+   "date": "2026-11-08",
+   "theme": "Chat",
+   "pattern": "checker",
+   "base": [
+    12,
+    16,
+    34
+   ],
+   "voice": "mb-fr1",
+   "seed_range": [
+    1,
+    15
+   ]
+  },
+  {
+   "n": 4,
+   "slug": "manif_merge_4",
+   "date": "2026-11-09",
+   "theme": "Manif (personnages inventés)",
+   "pattern": "rays",
+   "base": [
+    10,
+    14,
+    40
+   ],
+   "voice": "mb-fr4",
+   "seed_range": [
+    40,
+    60
+   ]
+  },
+  {
+   "n": 5,
+   "slug": "ferme_merge_5",
+   "date": "2026-11-10",
+   "theme": "Ferme",
+   "pattern": "stripes",
+   "base": [
+    90,
+    175,
+    245
+   ],
+   "voice": "mb-fr1",
+   "seed_range": [
+    60,
+    84
+   ]
+  },
+  {
+   "n": 6,
+   "slug": "espace_merge_6",
+   "date": "2026-11-11",
+   "theme": "Espace",
+   "pattern": "dots",
+   "base": [
+    175,
+    140,
+    255
+   ],
+   "voice": "mb-fr4",
+   "seed_range": [
+    84,
+    96
+   ],
+   "youtube": "https://youtube.com/shorts/go_zdK8Hjd4",
+   "tiktok": "publié (en cours d'examen)",
+   "instagram": "publié (Reel)"
+  },
+  {
+   "n": 7,
+   "slug": "fastfood_merge_7",
+   "date": "2026-11-12",
+   "theme": "Fast-food",
+   "pattern": "spiral",
+   "base": [
+    255,
+    185,
+    60
+   ],
+   "voice": "mb-fr1",
+   "seed_range": [
+    100,
+    130
+   ],
+   "youtube": "https://youtube.com/shorts/vSAS2q8GHjc",
+   "tiktok": "publié (en cours d'examen)",
+   "instagram": "publié (Reel)",
+   "note": "YouTube et TikTok ont reçu une 1re version dont les sous-titres affichaient l'orthographe phonétique (« Beurgueur », « Menu iks iks elle ») ; Instagram a la version corrigée. Leçon : le 2e champ de LEVELS et final_voice s'affichent en sous-titres, mettre la prononciation uniquement dans say_replace."
+  },
+  {
+   "n": 8,
+   "slug": "dinosaures_merge_8",
+   "date": "2026-11-13",
+   "theme": "Dinosaures",
+   "pattern": "checker",
+   "base": [
+    150,
+    225,
+    120
+   ],
+   "voice": "mb-fr4",
+   "seed_range": [
+    130,
+    160
+   ],
+   "youtube": "https://youtube.com/shorts/2J3zsfbYU2s",
+   "tiktok": "publié (en cours d'examen)",
+   "instagram": "publié (Reel)",
+   "note": "file_upload refuse $HOME=/root dans cet environnement : copier upload_merge.mp4 dans le dossier de travail de la session (ici la racine du dépôt clone, ne pas le committer)."
+  },
+  {
+   "n": 9,
+   "slug": "ecole_merge_9",
+   "date": "2026-11-14",
+   "theme": "École (personnages inventés)",
+   "pattern": "rays",
+   "base": [
+    110,
+    215,
+    225
+   ],
+   "voice": "mb-fr1",
+   "seed_range": [
+    160,
+    190
+   ],
+   "youtube": "https://youtube.com/shorts/OLKk89CEJ2I",
+   "tiktok": "publié (en cours d'examen)",
+   "instagram": "NON publié : écran Meta de consentement pub / abonnement sans pub à valider par Noé",
+   "note": "Instagram redirige vers /consent/?flow=ad_free_subscription : choix d'abonnement/consentement réservé à Noé, la tâche ne doit pas le faire."
+  }
+ ],
+ "stats_notes": "TikTok : tous ~250 vues. Visionnage moyen ép1 8,2 s ; ép3 4,5 s (fond sombre) ; ép5 8,05 s, 1,6 % jusqu'au bout (fond clair + bruitages). Décrochage principal à 0:01."
 }
