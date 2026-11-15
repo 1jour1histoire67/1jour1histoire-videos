@@ -1,0 +1,181 @@
+{
+  "slug": "ocean_merge_10",
+  "episode": 10,
+  "hook_title": "CHEF DES MERS !",
+  "hook_voice": "Devine ce que devient cette bulle !",
+  "twist_title": "UN FILET !",
+  "twist_boom": "PLOUF !",
+  "twist_voice": [
+    "Oh non ! Un filet tombe du bateau !",
+    "Tout le monde nage, vite, vite !",
+    "Raté, le filet est plein de trous !"
+  ],
+  "final_intro": "TU AS CRÉÉ LA",
+  "final_voice": "Baleine... céleste !",
+  "extra": {
+    "2": [
+      "Un poisson tout rond qui fait des bulles !"
+    ],
+    "3": [
+      "Le crabe marche de travers, normal !"
+    ],
+    "4": [
+      "Huit bras pour applaudir !"
+    ],
+    "5": [
+      "Le dauphin fait un salto !"
+    ],
+    "6": [
+      "Un requin qui veut juste un câlin !"
+    ]
+  },
+  "fill": [
+    "Ça fait des bulles partout !",
+    "Plongée dans le grand bleu !",
+    "Allez, encore un !",
+    "Regarde celui-là !",
+    "Ça déborde de l'aquarium !",
+    "Attention aux vagues !",
+    "Encore une fusion !",
+    "Le corail tremble !",
+    "On y est presque !",
+    "Ça devient énorme là.",
+    "Qui sera le roi des océans ?",
+    "Nage, nage, fusionne !",
+    "Glou glou, trop fort !",
+    "Vite, avant la marée !"
+  ],
+  "say_replace": {},
+  "colors": {
+    "base": [
+      255,
+      172,
+      165
+    ],
+    "stripe": [
+      255,
+      212,
+      205
+    ],
+    "inner": [
+      255,
+      252,
+      248
+    ],
+    "inner_edge": [
+      60,
+      20,
+      20
+    ],
+    "neon": [
+      [
+        60,
+        170,
+        230
+      ],
+      [
+        60,
+        170,
+        230
+      ],
+      [
+        240,
+        110,
+        120
+      ],
+      [
+        40,
+        150,
+        200
+      ],
+      [
+        230,
+        70,
+        60
+      ],
+      [
+        150,
+        80,
+        220
+      ],
+      [
+        30,
+        160,
+        180
+      ],
+      [
+        70,
+        110,
+        230
+      ]
+    ]
+  },
+  "pattern": "dots",
+  "voice": {
+    "engine": "mb-fr4",
+    "pitch": 61,
+    "speed": 172
+  },
+  "music": {
+    "bpm": 134,
+    "chords": [
+      [
+        62,
+        66,
+        69,
+        74
+      ],
+      [
+        59,
+        62,
+        66,
+        71
+      ],
+      [
+        55,
+        59,
+        62,
+        67
+      ],
+      [
+        57,
+        61,
+        64,
+        69
+      ]
+    ]
+  },
+  "sfx_reveal": {
+    "2": [
+      "squeak:1.4"
+    ],
+    "3": [
+      "slide_whistle:1"
+    ],
+    "4": [
+      "pew"
+    ],
+    "5": [
+      "airhorn"
+    ],
+    "6": [
+      "vine_boom"
+    ],
+    "7": []
+  },
+  "seed_range": [
+    190,
+    220
+  ],
+  "post": {
+    "caption": "Devine qui règne sur l'océan à la fin 🌊👀 Ton niveau préféré ? Commente 1 à 8 👇 #ocean #mer #jeudefusion #brainrot",
+    "title": "J'ai créé la BALEINE CÉLESTE 🐋",
+    "youtube_category": "ENTERTAINMENT",
+    "tags": [
+      "océan",
+      "baleine",
+      "jeu de fusion",
+      "brainrot"
+    ]
+  }
+}

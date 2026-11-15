@@ -1,5 +1,5 @@
 {
- "next_episode": 10,
+ "next_episode": 11,
  "episodes": [
   {
    "n": 1,
@@ -168,6 +168,26 @@
    "tiktok": "publié (en cours d'examen)",
    "instagram": "NON publié : écran Meta de consentement pub / abonnement sans pub à valider par Noé",
    "note": "Instagram redirige vers /consent/?flow=ad_free_subscription : choix d'abonnement/consentement réservé à Noé, la tâche ne doit pas le faire."
+  },
+  {
+   "n": 10,
+   "slug": "ocean_merge_10",
+   "date": "2026-11-15",
+   "theme": "Océan",
+   "pattern": "dots",
+   "base": [
+    255,
+    172,
+    165
+   ],
+   "voice": "mb-fr4",
+   "seed_range": [
+    190,
+    220
+   ],
+   "youtube": "https://youtube.com/shorts/fCzmvSK13L4",
+   "tiktok": "publié (en cours d'examen)",
+   "instagram": "NON publié : toujours l'écran Meta /consent/?flow=ad_free_subscription (2e jour), à valider par Noé"
   }
  ],
  "stats_notes": "TikTok : tous ~250 vues. Visionnage moyen ép1 8,2 s ; ép3 4,5 s (fond sombre) ; ép5 8,05 s, 1,6 % jusqu'au bout (fond clair + bruitages). Décrochage principal à 0:01."
