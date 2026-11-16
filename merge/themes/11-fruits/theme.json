@@ -1,0 +1,85 @@
+{
+  "slug": "fruits_merge_11",
+  "episode": 11,
+  "hook_title": "ROI DU VERGER !",
+  "hook_voice": "Devine ce que devient ce petit pépin !",
+  "twist_title": "UN MIXEUR !",
+  "twist_boom": "VROUM !",
+  "twist_voice": [
+    "Oh non ! Un mixeur arrive en cuisine !",
+    "Tout le monde se cache dans la corbeille !",
+    "Ouf, il n'est pas branché !"
+  ],
+  "final_intro": "TU AS CRÉÉ LA",
+  "final_voice": "Pastèque... dorée !",
+  "extra": {
+    "2": ["Une fraise avec des taches de rousseur !"],
+    "3": ["Le citron fait la grimace, trop acide !"],
+    "4": ["Une orange pleine de vitamines !"],
+    "5": ["Une pomme par jour, et voilà !"],
+    "6": ["L'ananas a une coupe de cheveux de star !"]
+  },
+  "fill": [
+    "Ça sent bon le jus de fruits !",
+    "Salade de fruits, jolie, jolie !",
+    "Allez, encore un !",
+    "Regarde celui-là !",
+    "Le panier déborde !",
+    "Attention, ça glisse !",
+    "Encore une fusion !",
+    "C'est la récolte du siècle !",
+    "On y est presque !",
+    "Ça devient énorme là.",
+    "Qui sera le roi du verger ?",
+    "Pressé, pressé, fusionne !",
+    "Miam, trop fort !",
+    "Vite, avant le goûter !"
+  ],
+  "say_replace": {},
+  "colors": {
+    "base": [255, 225, 95],
+    "stripe": [255, 240, 160],
+    "inner": [255, 253, 240],
+    "inner_edge": [70, 45, 10],
+    "neon": [
+      [140, 80, 40],
+      [220, 30, 60],
+      [235, 50, 70],
+      [220, 170, 0],
+      [245, 130, 20],
+      [90, 180, 50],
+      [200, 140, 20],
+      [40, 150, 70]
+    ]
+  },
+  "pattern": "spiral",
+  "voice": {
+    "engine": "mb-fr1",
+    "pitch": 64,
+    "speed": 176
+  },
+  "music": {
+    "bpm": 120,
+    "chords": [
+      [60, 64, 67, 72],
+      [57, 60, 64, 69],
+      [53, 57, 60, 65],
+      [55, 59, 62, 67]
+    ]
+  },
+  "sfx_reveal": {
+    "2": ["squeak:1.6"],
+    "3": ["clown_honk"],
+    "4": ["ding"],
+    "5": ["airhorn3"],
+    "6": ["vine_boom"],
+    "7": []
+  },
+  "seed_range": [220, 250],
+  "post": {
+    "caption": "Devine quel fruit règne sur le verger à la fin 🍉👀 Ton niveau préféré ? Commente 1 à 8 👇 #fruits #jeudefusion #brainrot #satisfying",
+    "title": "J'ai créé la PASTÈQUE DORÉE 🍉",
+    "youtube_category": "ENTERTAINMENT",
+    "tags": ["fruits", "pastèque", "jeu de fusion", "brainrot"]
+  }
+}
