@@ -1,5 +1,5 @@
 {
-  "next_episode": 12,
+  "next_episode": 13,
   "episodes": [
     {
       "n": 1,
@@ -209,6 +209,27 @@
       "tiktok": "publié (en cours d'examen)",
       "instagram": "publié (Reel)",
       "note": "Tâche lancée en retard (17:24 UTC au lieu de 13:14 UTC) : publication vers 18h30 Paris."
+    },
+    {
+      "n": 12,
+      "slug": "vehicules_merge_12",
+      "date": "2026-11-19",
+      "theme": "Véhicules",
+      "pattern": "stripes",
+      "base": [
+        125,
+        205,
+        255
+      ],
+      "voice": "mb-fr4",
+      "seed_range": [
+        250,
+        280
+      ],
+      "youtube": "https://youtube.com/shorts/4mJQOdiUsFI",
+      "tiktok": "publié (en cours d'examen)",
+      "instagram": "publié (Reel)",
+      "note": "Tâche lancée en retard (18:42 UTC au lieu de 13:14 UTC) : publication vers 20h Paris. Instagram : captures d'écran figées, tout fait en JS (bouton svg 'Sélectionner un format' → Original, Suivant x2, focus légende + type)."
     }
   ],
   "stats_notes": "TikTok : tous ~250 vues. Visionnage moyen ép1 8,2 s ; ép3 4,5 s (fond sombre) ; ép5 8,05 s, 1,6 % jusqu'au bout (fond clair + bruitages). Décrochage principal à 0:01."

@@ -8,7 +8,7 @@ Chaque ligne donne : les 8 niveaux, puis le rebondissement (le personnage de `ma
 - [x] **ÉCOLE** (ép. 9) : Gomme → Crayon → Cahier → Trousse → Cartable → Pion → Prof → PROVISEUR SUPRÊME (personnages inventés). Rebondissement : INTERRO SURPRISE ! Bruitages : ding, sad_trombone, record_scratch.
 - [x] **OCÉAN** (ép. 10) : Bulle → Crevette → Poisson → Crabe → Poulpe → Dauphin → Requin → BALEINE CÉLESTE. Rebondissement : UN FILET ! Bruitages : squeak, slide_whistle, vine_boom.
 - [x] **FRUITS** (ép. 11) : Pépin → Cerise → Fraise → Citron → Orange → Pomme → Ananas → PASTÈQUE DORÉE. Rebondissement : UN MIXEUR ! Bruitages : squeak, clown_honk, airhorn3.
-- [ ] **VÉHICULES** : Trottinette → Vélo → Scooter → Voiture → Camion → Bus → Avion → FUSÉE. Rebondissement : UN RADAR ! (flash). Bruitages : klaxon, record_scratch, vine_boom.
+- [x] **VÉHICULES** (ép. 12) : Trottinette → Vélo → Scooter → Voiture → Camion → Bus → Avion → FUSÉE. Rebondissement : UN RADAR ! (flash). Bruitages : klaxon, record_scratch, vine_boom.
 - [ ] **MÉTÉO** : Goutte → Nuage → Pluie → Orage → Arc-en-ciel → Tornade → Ouragan → SOLEIL SUPRÊME. Rebondissement : LA GRÊLE ! Bruitages : crash, howl (vent), cheer.
 - [ ] **GÂTEAUX** : Miette → Cookie → Donut → Cupcake → Part de gâteau → Gâteau d'anniversaire → Pièce montée → GÂTEAU GÉANT. Rebondissement : UNE FOURCHETTE GÉANTE ! Bruitages : squeak, ding, airhorn3.
 - [ ] **ROBOTS** : Vis → Boulon → Puce → Mini-robot → Drone → Robot ménager → Méca → MÉGA-ROBOT. Rebondissement : UN BUG ! Bruitages : pew, record_scratch, dun_dun_dun.

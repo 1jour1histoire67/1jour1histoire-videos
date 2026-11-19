@@ -1,0 +1,181 @@
+{
+  "slug": "vehicules_merge_12",
+  "episode": 12,
+  "hook_title": "BOLIDE FINAL !",
+  "hook_voice": "Devine ce que devient cette petite trottinette !",
+  "twist_title": "UN RADAR !",
+  "twist_boom": "FLASH !",
+  "twist_voice": [
+    "Oh non ! Un radar sur le bord de la route !",
+    "Tout le monde freine d'un coup !",
+    "Ouf, il était en panne !"
+  ],
+  "final_intro": "TU AS CRÉÉ LA",
+  "final_voice": "Méga... fusée !",
+  "extra": {
+    "2": [
+      "Un scooter qui fait bzz bzz dans la rue !"
+    ],
+    "3": [
+      "Une petite voiture toute rouge, tut tut !"
+    ],
+    "4": [
+      "Le camion klaxonne, place, place !"
+    ],
+    "5": [
+      "Tout le monde monte dans le bus !"
+    ],
+    "6": [
+      "Attachez vos ceintures, on décolle !"
+    ]
+  },
+  "fill": [
+    "Ça roule à fond !",
+    "Attention au virage !",
+    "Allez, encore un !",
+    "Regarde celui-là !",
+    "Embouteillage dans l'arène !",
+    "Pas de bouchon aujourd'hui !",
+    "Encore une fusion !",
+    "Plein d'essence, et c'est reparti !",
+    "On y est presque !",
+    "Ça devient énorme là.",
+    "Qui sera le plus rapide ?",
+    "Accélère, accélère !",
+    "Vroum vroum, trop fort !",
+    "Vite, avant le feu rouge !"
+  ],
+  "say_replace": {},
+  "colors": {
+    "base": [
+      125,
+      205,
+      255
+    ],
+    "stripe": [
+      175,
+      228,
+      255
+    ],
+    "inner": [
+      248,
+      252,
+      255
+    ],
+    "inner_edge": [
+      20,
+      50,
+      90
+    ],
+    "neon": [
+      [
+        40,
+        170,
+        120
+      ],
+      [
+        230,
+        120,
+        20
+      ],
+      [
+        200,
+        60,
+        170
+      ],
+      [
+        225,
+        35,
+        45
+      ],
+      [
+        60,
+        120,
+        220
+      ],
+      [
+        235,
+        175,
+        0
+      ],
+      [
+        90,
+        110,
+        160
+      ],
+      [
+        130,
+        70,
+        220
+      ]
+    ]
+  },
+  "pattern": "stripes",
+  "voice": {
+    "engine": "mb-fr4",
+    "pitch": 60,
+    "speed": 172
+  },
+  "music": {
+    "bpm": 134,
+    "chords": [
+      [
+        62,
+        66,
+        69,
+        74
+      ],
+      [
+        59,
+        62,
+        66,
+        71
+      ],
+      [
+        55,
+        59,
+        62,
+        67
+      ],
+      [
+        57,
+        61,
+        64,
+        69
+      ]
+    ]
+  },
+  "sfx_reveal": {
+    "2": [
+      "clown_honk"
+    ],
+    "3": [
+      "record_scratch"
+    ],
+    "4": [
+      "airhorn"
+    ],
+    "5": [
+      "slide_whistle:1"
+    ],
+    "6": [
+      "vine_boom"
+    ],
+    "7": []
+  },
+  "seed_range": [
+    250,
+    280
+  ],
+  "post": {
+    "caption": "Devine quel véhicule gagne la course à la fin 🚀👀 Ton niveau préféré ? Commente 1 à 8 👇 #vehicules #jeudefusion #brainrot #satisfying",
+    "title": "J'ai créé la MÉGA FUSÉE 🚀",
+    "youtube_category": "ENTERTAINMENT",
+    "tags": [
+      "véhicules",
+      "fusée",
+      "jeu de fusion",
+      "brainrot"
+    ]
+  }
+}
