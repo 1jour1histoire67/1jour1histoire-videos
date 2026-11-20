@@ -1,0 +1,76 @@
+{
+  "slug": "meteo_merge_13",
+  "episode": 13,
+  "hook_title": "BOSS DU CIEL !",
+  "hook_voice": "Devine ce que devient cette petite goutte d'eau !",
+  "twist_title": "LA GRÊLE !",
+  "twist_boom": "PAF PAF !",
+  "twist_voice": [
+    "Oh non ! La grêle tombe sur l'arène !",
+    "Tout le monde sort son parapluie !",
+    "Ouf, c'était juste des glaçons !"
+  ],
+  "final_intro": "TU AS CRÉÉ LE",
+  "final_voice": "Soleil... suprême !",
+  "extra": {
+    "2": ["Sortez les bottes, il pleut des cordes !"],
+    "3": ["Un orage qui gronde, brrr !"],
+    "4": ["Un arc-en-ciel, trop joli !"],
+    "5": ["Une tornade qui tourne, tourne, tourne !"],
+    "6": ["Alerte rouge, voici l'ouragan !"]
+  },
+  "fill": [
+    "Ça souffle fort !",
+    "Attention aux nuages !",
+    "Allez, encore un !",
+    "Regarde celui-là !",
+    "Avis de tempête dans l'arène !",
+    "Pas besoin de parapluie !",
+    "Encore une fusion !",
+    "Le ciel se mélange !",
+    "On y est presque !",
+    "Ça devient énorme là.",
+    "Quel temps fera-t-il demain ?",
+    "Ça tourbillonne de partout !",
+    "Trop fort ce bulletin météo !",
+    "Vite, avant l'éclaircie !"
+  ],
+  "say_replace": {},
+  "colors": {
+    "base": [200, 180, 255],
+    "stripe": [222, 208, 255],
+    "inner": [252, 250, 255],
+    "inner_edge": [70, 40, 120],
+    "neon": [
+      [40, 140, 230],
+      [120, 130, 160],
+      [60, 110, 200],
+      [120, 60, 200],
+      [230, 60, 120],
+      [40, 160, 150],
+      [80, 90, 200],
+      [235, 160, 0]
+    ]
+  },
+  "pattern": "rays",
+  "voice": {"engine": "mb-fr1", "pitch": 66, "speed": 176},
+  "music": {
+    "bpm": 118,
+    "chords": [[60, 64, 67, 72], [57, 60, 64, 69], [65, 69, 72, 77], [67, 71, 74, 79]]
+  },
+  "sfx_reveal": {
+    "2": ["squeak:1.4"],
+    "3": ["crash"],
+    "4": ["cheer"],
+    "5": ["howl"],
+    "6": ["dun_dun_dun"],
+    "7": []
+  },
+  "seed_range": [280, 310],
+  "post": {
+    "caption": "Devine quelle météo gagne à la fin ☀️👀 Ton niveau préféré ? Commente 1 à 8 👇 #meteo #jeudefusion #brainrot #satisfying",
+    "title": "J'ai créé le SOLEIL SUPRÊME ☀️",
+    "youtube_category": "ENTERTAINMENT",
+    "tags": ["météo", "soleil", "jeu de fusion", "brainrot"]
+  }
+}
