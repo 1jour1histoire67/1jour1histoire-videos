@@ -1,0 +1,76 @@
+{
+  "slug": "robots_merge_15",
+  "episode": 15,
+  "hook_title": "ROBOT FINAL !",
+  "hook_voice": "Devine ce que devient cette petite vis !",
+  "twist_title": "UN BUG !",
+  "twist_boom": "BZZZT !",
+  "twist_voice": [
+    "Oh non ! Un bug s'est glissé dans la machine !",
+    "Tous les robots se mettent à danser n'importe comment !",
+    "Ouf, on a éteint et rallumé, ça marche !"
+  ],
+  "final_intro": "TU AS CRÉÉ LE",
+  "final_voice": "Méga... robot !",
+  "extra": {
+    "2": ["Une puce, le cerveau de la bande !"],
+    "3": ["Un mini-robot, trop mignon !"],
+    "4": ["Un drone, ça décolle !"],
+    "5": ["Le robot ménager fait le ménage !"],
+    "6": ["Un méca géant, attention les pieds !"]
+  },
+  "fill": [
+    "Bip bip, fusion en cours !",
+    "Attention aux étincelles !",
+    "Allez, encore un !",
+    "Regarde celui-là !",
+    "Le processeur chauffe !",
+    "Encore une fusion métallique !",
+    "Qui a perdu un boulon ?",
+    "Chargement à cinquante pour cent !",
+    "On y est presque !",
+    "Ça devient énorme là.",
+    "Plus de batterie, plus de batterie !",
+    "Mise à jour en cours, ne pas éteindre !",
+    "Trop fort ce montage !",
+    "Vite, avant la panne !"
+  ],
+  "say_replace": {"bug": "beugue", "Bug": "Beugue", "BUG": "beugue", "Méca": "Mékka", "méca": "mékka", "drone": "drône"},
+  "colors": {
+    "base": [255, 205, 140],
+    "stripe": [255, 225, 180],
+    "inner": [255, 252, 245],
+    "inner_edge": [150, 80, 20],
+    "neon": [
+      [120, 130, 150],
+      [200, 150, 30],
+      [40, 160, 90],
+      [30, 170, 200],
+      [90, 110, 230],
+      [230, 90, 160],
+      [220, 70, 60],
+      [235, 160, 0]
+    ]
+  },
+  "pattern": "dots",
+  "voice": {"engine": "mb-fr1", "pitch": 66, "speed": 176},
+  "music": {
+    "bpm": 140,
+    "chords": [[57, 60, 64, 69], [53, 57, 60, 65], [55, 59, 62, 67], [52, 56, 59, 64]]
+  },
+  "sfx_reveal": {
+    "2": ["pew"],
+    "3": ["squeak:1.3"],
+    "4": ["slide_whistle:1"],
+    "5": ["ding"],
+    "6": ["dun_dun_dun"],
+    "7": []
+  },
+  "seed_range": [340, 370],
+  "post": {
+    "caption": "Devine quel robot gagne à la fin 🤖👀 Ton niveau préféré ? Commente 1 à 8 👇 #robot #jeudefusion #brainrot #satisfying",
+    "title": "J'ai créé le MÉGA-ROBOT 🤖",
+    "youtube_category": "ENTERTAINMENT",
+    "tags": ["robot", "jeu de fusion", "brainrot", "satisfying"]
+  }
+}
