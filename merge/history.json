@@ -1,5 +1,5 @@
 {
- "next_episode": 13,
+ "next_episode": 15,
  "episodes": [
   {
    "n": 1,
@@ -251,6 +251,27 @@
    "tiktok": "NON publié : navigateur dédié non connecté",
    "instagram": "NON publié : navigateur dédié non connecté",
    "note": "Tâche lancée en retard (16:48 UTC). Navigateur 1f793a53 absent (seul l'autre navigateur était connecté, non utilisé) : vidéo + textes envoyés à Noé pour publication manuelle. Accroche « DEVINE LE » fixe dans render.py : choisir un hook_title masculin."
+  },
+  {
+   "n": 14,
+   "slug": "gateaux_merge_14",
+   "date": "2026-11-22",
+   "theme": "Gâteaux",
+   "pattern": "checker",
+   "base": [
+    165,
+    235,
+    205
+   ],
+   "voice": "mb-fr4",
+   "seed_range": [
+    310,
+    340
+   ],
+   "youtube": "NON publié : navigateur dédié non connecté",
+   "tiktok": "NON publié : navigateur dédié non connecté",
+   "instagram": "NON publié : navigateur dédié non connecté",
+   "note": "Tâche lancée en retard (12:42 UTC le 22/11 au lieu du 21/11 13:14 UTC). Navigateur 1f793a53 absent (seul 88efa203 connecté, non utilisé) : vidéo + textes envoyés à Noé pour publication manuelle."
   }
  ],
  "stats_notes": "TikTok : tous ~250 vues. Visionnage moyen ép1 8,2 s ; ép3 4,5 s (fond sombre) ; ép5 8,05 s, 1,6 % jusqu'au bout (fond clair + bruitages). Décrochage principal à 0:01."

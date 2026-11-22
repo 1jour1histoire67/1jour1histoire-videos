@@ -10,7 +10,7 @@ Chaque ligne donne : les 8 niveaux, puis le rebondissement (le personnage de `ma
 - [x] **FRUITS** (ép. 11) : Pépin → Cerise → Fraise → Citron → Orange → Pomme → Ananas → PASTÈQUE DORÉE. Rebondissement : UN MIXEUR ! Bruitages : squeak, clown_honk, airhorn3.
 - [x] **VÉHICULES** (ép. 12) : Trottinette → Vélo → Scooter → Voiture → Camion → Bus → Avion → FUSÉE. Rebondissement : UN RADAR ! (flash). Bruitages : klaxon, record_scratch, vine_boom.
 - [x] **MÉTÉO** (ép. 13) : Goutte → Nuage → Pluie → Orage → Arc-en-ciel → Tornade → Ouragan → SOLEIL SUPRÊME. Rebondissement : LA GRÊLE ! Bruitages : crash, howl (vent), cheer.
-- [ ] **GÂTEAUX** : Miette → Cookie → Donut → Cupcake → Part de gâteau → Gâteau d'anniversaire → Pièce montée → GÂTEAU GÉANT. Rebondissement : UNE FOURCHETTE GÉANTE ! Bruitages : squeak, ding, airhorn3.
+- [x] **GÂTEAUX** (ép. 14) : Miette → Cookie → Donut → Cupcake → Part de gâteau → Gâteau d'anniversaire → Pièce montée → GÂTEAU GÉANT. Rebondissement : UNE FOURCHETTE GÉANTE ! Bruitages : squeak, ding, airhorn3.
 - [ ] **ROBOTS** : Vis → Boulon → Puce → Mini-robot → Drone → Robot ménager → Méca → MÉGA-ROBOT. Rebondissement : UN BUG ! Bruitages : pew, record_scratch, dun_dun_dun.
 - [ ] **OPEN SPACE** : Trombone → Post-it → Stagiaire → Employé → Manager → Directeur → PDG → PDG GALACTIQUE (personnages inventés). Rebondissement : RÉUNION SURPRISE ! Bruitages : ding, sad_trombone, vine_boom.
 - [ ] **FAMILLE** : Bébé → Enfant → Ado → Étudiant → Parent → Papy → Arrière-papy → PAPY LÉGENDAIRE. Rebondissement : PLUS DE WIFI ! Bruitages : record_scratch, sad_trombone, cheer.

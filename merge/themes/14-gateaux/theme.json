@@ -1,0 +1,76 @@
+{
+  "slug": "gateaux_merge_14",
+  "episode": 14,
+  "hook_title": "GÂTEAU FINAL !",
+  "hook_voice": "Devine ce que devient cette petite miette !",
+  "twist_title": "LA FOURCHETTE !",
+  "twist_boom": "SCHLING !",
+  "twist_voice": [
+    "Oh non ! Une fourchette géante arrive !",
+    "Elle veut goûter tout le monde !",
+    "Ouf, elle préfère attendre le dessert !"
+  ],
+  "final_intro": "TU AS CRÉÉ LE",
+  "final_voice": "Gâteau... géant !",
+  "extra": {
+    "2": ["Un donut tout rond, miam !"],
+    "3": ["Un cupcake avec sa cerise !"],
+    "4": ["Une part de gâteau, qui en veut ?"],
+    "5": ["Joyeux anniversaire, soufflez les bougies !"],
+    "6": ["Une pièce montée, c'est la fête !"]
+  },
+  "fill": [
+    "Ça sent bon le chocolat !",
+    "Attention aux miettes !",
+    "Allez, encore un !",
+    "Regarde celui-là !",
+    "Le pâtissier est en feu !",
+    "Encore une fusion sucrée !",
+    "Qui a pris le dernier cookie ?",
+    "Ça monte comme une brioche !",
+    "On y est presque !",
+    "Ça devient énorme là.",
+    "Plus de crème, plus de crème !",
+    "Ça déborde de chantilly !",
+    "Trop bon ce goûter !",
+    "Vite, avant le dessert !"
+  ],
+  "say_replace": {"cupcake": "keupkèk", "Cupcake": "Keupkèk", "cookie": "kouki", "Cookie": "Kouki", "donut": "donnutte", "Donut": "Donnutte"},
+  "colors": {
+    "base": [165, 235, 205],
+    "stripe": [195, 245, 222],
+    "inner": [250, 255, 252],
+    "inner_edge": [30, 110, 85],
+    "neon": [
+      [200, 140, 60],
+      [170, 100, 40],
+      [235, 80, 150],
+      [210, 60, 120],
+      [230, 110, 40],
+      [120, 70, 200],
+      [220, 70, 90],
+      [235, 160, 0]
+    ]
+  },
+  "pattern": "checker",
+  "voice": {"engine": "mb-fr4", "pitch": 62, "speed": 170},
+  "music": {
+    "bpm": 132,
+    "chords": [[62, 66, 69, 74], [59, 62, 66, 71], [55, 59, 62, 67], [57, 61, 64, 69]]
+  },
+  "sfx_reveal": {
+    "2": ["squeak:1.6"],
+    "3": ["ding"],
+    "4": ["clown_honk"],
+    "5": ["cheer"],
+    "6": ["airhorn3"],
+    "7": []
+  },
+  "seed_range": [310, 340],
+  "post": {
+    "caption": "Devine quel gâteau gagne à la fin 🎂👀 Ton niveau préféré ? Commente 1 à 8 👇 #gateau #jeudefusion #brainrot #satisfying",
+    "title": "J'ai créé le GÂTEAU GÉANT 🎂",
+    "youtube_category": "ENTERTAINMENT",
+    "tags": ["gâteau", "pâtisserie", "jeu de fusion", "brainrot"]
+  }
+}
