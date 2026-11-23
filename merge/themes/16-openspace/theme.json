@@ -1,0 +1,76 @@
+{
+  "slug": "openspace_merge_16",
+  "episode": 16,
+  "hook_title": "BOSS FINAL !",
+  "hook_voice": "Devine ce que devient ce petit trombone !",
+  "twist_title": "RÉUNION !",
+  "twist_boom": "DRIIING !",
+  "twist_voice": [
+    "Oh non ! Une réunion surprise vient de tomber !",
+    "Tout le monde court chercher un café en panique !",
+    "Ouf, elle aurait pu être un mail, on retourne bosser !"
+  ],
+  "final_intro": "TU AS CRÉÉ LE",
+  "final_voice": "PDG... galactique !",
+  "extra": {
+    "2": ["Le stagiaire apporte les cafés !"],
+    "3": ["Un employé, cravate bien droite !"],
+    "4": ["Le manager a un tableau à te montrer !"],
+    "5": ["Monsieur le directeur, rien que ça !"],
+    "6": ["Le PDG arrive, tout le monde se lève !"]
+  },
+  "fill": [
+    "Fusion en open space !",
+    "Attention à la photocopieuse !",
+    "Allez, encore un !",
+    "Regarde celui-là !",
+    "Promotion en cours !",
+    "Quelqu'un a vu mon agrafeuse ?",
+    "La machine à café chauffe !",
+    "Objectif du trimestre atteint !",
+    "On y est presque !",
+    "Ça devient énorme là.",
+    "Vite, c'est bientôt la pause !",
+    "Encore une augmentation !",
+    "Trop fort ce montage !",
+    "Qui a volé mon yaourt dans le frigo ?"
+  ],
+  "say_replace": {"PDG": "pé dé gé", "manager": "manadjeur", "Manager": "Manadjeur", "MANAGER": "manadjeur", "mail": "mèl", "open space": "opène spèsse", "Fusion en open space": "Fusion en opène spèsse"},
+  "colors": {
+    "base": [255, 185, 215],
+    "stripe": [255, 212, 232],
+    "inner": [255, 250, 252],
+    "inner_edge": [160, 40, 100],
+    "neon": [
+      [120, 130, 150],
+      [215, 170, 0],
+      [40, 160, 90],
+      [50, 120, 220],
+      [130, 80, 210],
+      [20, 150, 145],
+      [220, 60, 50],
+      [235, 160, 0]
+    ]
+  },
+  "pattern": "spiral",
+  "voice": {"engine": "mb-fr4", "pitch": 61, "speed": 170},
+  "music": {
+    "bpm": 124,
+    "chords": [[62, 66, 69, 74], [59, 62, 66, 71], [55, 59, 62, 67], [57, 61, 64, 69]]
+  },
+  "sfx_reveal": {
+    "2": ["ding"],
+    "3": ["squeak:1.1"],
+    "4": ["vine_boom"],
+    "5": ["airhorn"],
+    "6": ["drumroll"],
+    "7": []
+  },
+  "seed_range": [370, 400],
+  "post": {
+    "caption": "Du trombone au PDG galactique 💼👑 Tu t'arrêtes à quel niveau ? Commente 1 à 8 👇 #bureau #jeudefusion #brainrot #satisfying",
+    "title": "J'ai créé le PDG GALACTIQUE 👑",
+    "youtube_category": "ENTERTAINMENT",
+    "tags": ["bureau", "jeu de fusion", "brainrot", "satisfying"]
+  }
+}
