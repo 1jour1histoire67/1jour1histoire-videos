@@ -1,0 +1,76 @@
+{
+  "slug": "famille_merge_17",
+  "episode": 17,
+  "hook_title": "PAPY FINAL !",
+  "hook_voice": "Devine ce que devient ce petit bébé !",
+  "twist_title": "PLUS DE WIFI !",
+  "twist_boom": "COUPÉ !",
+  "twist_voice": [
+    "Oh non ! Le wifi vient de couper dans toute la maison !",
+    "L'ado hurle, le papy cherche la box partout !",
+    "Ouf, quelqu'un a redémarré la box, la fusion continue !"
+  ],
+  "final_intro": "TU AS CRÉÉ LE",
+  "final_voice": "Papy... légendaire !",
+  "extra": {
+    "2": ["L'ado ne lâche plus son casque !"],
+    "3": ["L'étudiant a révisé toute la nuit !"],
+    "4": ["Le parent a besoin d'un café, vite !"],
+    "5": ["Papy raconte encore sa jeunesse !"],
+    "6": ["L'arrière-papy a cent ans et toutes ses dents !"]
+  },
+  "fill": [
+    "Fusion en famille !",
+    "À table, tout le monde !",
+    "Allez, encore un !",
+    "Regarde celui-là !",
+    "Ça grandit trop vite !",
+    "Qui a fini les biscuits ?",
+    "Range ta chambre !",
+    "Le repas de dimanche approche !",
+    "On y est presque !",
+    "Ça devient énorme là.",
+    "Mets ton manteau, il fait froid !",
+    "Encore une génération !",
+    "Trop fort ce montage !",
+    "Tu as fait tes devoirs ?"
+  ],
+  "say_replace": {"wifi": "oui-fi", "Wifi": "Oui-fi", "WIFI": "oui-fi", "ado": "a-do", "Ado": "A-do", "box": "boxe"},
+  "colors": {
+    "base": [140, 215, 250],
+    "stripe": [185, 232, 255],
+    "inner": [250, 254, 255],
+    "inner_edge": [30, 90, 160],
+    "neon": [
+      [235, 100, 150],
+      [235, 160, 0],
+      [140, 80, 210],
+      [40, 110, 220],
+      [40, 160, 90],
+      [200, 110, 50],
+      [120, 120, 140],
+      [230, 150, 0]
+    ]
+  },
+  "pattern": "stripes",
+  "voice": {"engine": "mb-fr1", "pitch": 66, "speed": 176},
+  "music": {
+    "bpm": 112,
+    "chords": [[65, 69, 72, 77], [62, 65, 69, 74], [58, 62, 65, 70], [60, 64, 67, 72]]
+  },
+  "sfx_reveal": {
+    "2": ["record_scratch"],
+    "3": ["ding"],
+    "4": ["squeak:0.9"],
+    "5": ["sad_trombone"],
+    "6": ["vine_boom"],
+    "7": []
+  },
+  "seed_range": [400, 430],
+  "post": {
+    "caption": "Du bébé au papy légendaire 👶👴 Tu t'arrêtes à quel niveau ? Commente 1 à 8 👇 #famille #jeudefusion #brainrot #satisfying",
+    "title": "J'ai créé le PAPY LÉGENDAIRE 👴👑",
+    "youtube_category": "ENTERTAINMENT",
+    "tags": ["famille", "jeu de fusion", "brainrot", "satisfying"]
+  }
+}

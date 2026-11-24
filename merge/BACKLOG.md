@@ -13,7 +13,7 @@ Chaque ligne donne : les 8 niveaux, puis le rebondissement (le personnage de `ma
 - [x] **GÂTEAUX** (ép. 14) : Miette → Cookie → Donut → Cupcake → Part de gâteau → Gâteau d'anniversaire → Pièce montée → GÂTEAU GÉANT. Rebondissement : UNE FOURCHETTE GÉANTE ! Bruitages : squeak, ding, airhorn3.
 - [x] **ROBOTS** (ép. 15) : Vis → Boulon → Puce → Mini-robot → Drone → Robot ménager → Méca → MÉGA-ROBOT. Rebondissement : UN BUG ! Bruitages : pew, record_scratch, dun_dun_dun.
 - [x] **OPEN SPACE** (ép. 16) : Trombone → Pense-bête → Stagiaire → Employé → Manager → Directeur → PDG → PDG GALACTIQUE (personnages inventés). Rebondissement : RÉUNION SURPRISE ! Bruitages : ding, sad_trombone, vine_boom.
-- [ ] **FAMILLE** : Bébé → Enfant → Ado → Étudiant → Parent → Papy → Arrière-papy → PAPY LÉGENDAIRE. Rebondissement : PLUS DE WIFI ! Bruitages : record_scratch, sad_trombone, cheer.
+- [x] **FAMILLE** (ép. 17) : Bébé → Enfant → Ado → Étudiant → Parent → Papy → Arrière-papy → PAPY LÉGENDAIRE. Rebondissement : PLUS DE WIFI ! Bruitages : record_scratch, sad_trombone, cheer.
 - [ ] **CHIENS** : Chiot → Teckel → Caniche → Beagle → Husky → Labrador → Saint-Bernard → CHIEN COSMIQUE. Rebondissement : LE VÉTÉRINAIRE ! Bruitages : squeak, howl, airhorn3.
 - [ ] **JARDIN** : Graine → Pousse → Fleur → Tournesol → Cactus → Buisson → Arbre → ARBRE MAGIQUE. Rebondissement : UNE TONDEUSE ! Bruitages : pew, boing, vine_boom.
 

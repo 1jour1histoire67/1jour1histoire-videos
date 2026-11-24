@@ -314,6 +314,27 @@
       "tiktok": "publié (en cours d'examen)",
       "instagram": "publié (Reel)",
       "note": "Publié vers 15h45 Paris. Post-it remplacé par Pense-bête (marque). file_upload refuse $HOME=/root : copier le _web.mp4 dans le dossier de travail (/home/claude/<repo>) puis le supprimer."
+    },
+    {
+      "n": 17,
+      "slug": "famille_merge_17",
+      "date": "2026-11-24",
+      "theme": "Famille",
+      "pattern": "stripes",
+      "base": [
+        140,
+        215,
+        250
+      ],
+      "voice": "mb-fr1",
+      "seed_range": [
+        400,
+        430
+      ],
+      "youtube": "NON publié : navigateur dédié non connecté",
+      "tiktok": "NON publié : navigateur dédié non connecté",
+      "instagram": "NON publié : navigateur dédié non connecté",
+      "note": "Tâche du 24/11 (13:37 UTC). Navigateur 1f793a53 absent (seul 88efa203 connecté, non utilisé) : vidéo + textes envoyés à Noé pour publication manuelle. Graine retenue 405."
     }
   ],
   "stats_notes": "TikTok : tous ~250 vues. Visionnage moyen ép1 8,2 s ; ép3 4,5 s (fond sombre) ; ép5 8,05 s, 1,6 % jusqu'au bout (fond clair + bruitages). Décrochage principal à 0:01."
