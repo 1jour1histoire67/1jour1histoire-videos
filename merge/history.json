@@ -1,341 +1,362 @@
 {
-  "next_episode": 16,
-  "episodes": [
-    {
-      "n": 1,
-      "slug": "nugget_merge_1",
-      "date": "2026-11-06",
-      "theme": "Nugget",
-      "pattern": "rays",
-      "base": [
-        9,
-        9,
-        28
-      ],
-      "voice": "mb-us2/fr1",
-      "seed_range": [
-        1,
-        10
-      ]
-    },
-    {
-      "n": 2,
-      "slug": "croissant_merge_2",
-      "date": "2026-11-07",
-      "theme": "Croissant",
-      "pattern": "spiral",
-      "base": [
-        20,
-        11,
-        30
-      ],
-      "voice": "mb-fr4",
-      "seed_range": [
-        20,
-        32
-      ]
-    },
-    {
-      "n": 3,
-      "slug": "chat_merge_3_v2",
-      "date": "2026-11-08",
-      "theme": "Chat",
-      "pattern": "checker",
-      "base": [
-        12,
-        16,
-        34
-      ],
-      "voice": "mb-fr1",
-      "seed_range": [
-        1,
-        15
-      ]
-    },
-    {
-      "n": 4,
-      "slug": "manif_merge_4",
-      "date": "2026-11-09",
-      "theme": "Manif (personnages inventés)",
-      "pattern": "rays",
-      "base": [
-        10,
-        14,
-        40
-      ],
-      "voice": "mb-fr4",
-      "seed_range": [
-        40,
-        60
-      ]
-    },
-    {
-      "n": 5,
-      "slug": "ferme_merge_5",
-      "date": "2026-11-10",
-      "theme": "Ferme",
-      "pattern": "stripes",
-      "base": [
-        90,
-        175,
-        245
-      ],
-      "voice": "mb-fr1",
-      "seed_range": [
-        60,
-        84
-      ]
-    },
-    {
-      "n": 6,
-      "slug": "espace_merge_6",
-      "date": "2026-11-11",
-      "theme": "Espace",
-      "pattern": "dots",
-      "base": [
-        175,
-        140,
-        255
-      ],
-      "voice": "mb-fr4",
-      "seed_range": [
-        84,
-        96
-      ],
-      "youtube": "https://youtube.com/shorts/go_zdK8Hjd4",
-      "tiktok": "publié (en cours d'examen)",
-      "instagram": "publié (Reel)"
-    },
-    {
-      "n": 7,
-      "slug": "fastfood_merge_7",
-      "date": "2026-11-12",
-      "theme": "Fast-food",
-      "pattern": "spiral",
-      "base": [
-        255,
-        185,
-        60
-      ],
-      "voice": "mb-fr1",
-      "seed_range": [
-        100,
-        130
-      ],
-      "youtube": "https://youtube.com/shorts/vSAS2q8GHjc",
-      "tiktok": "publié (en cours d'examen)",
-      "instagram": "publié (Reel)",
-      "note": "YouTube et TikTok ont reçu une 1re version dont les sous-titres affichaient l'orthographe phonétique (« Beurgueur », « Menu iks iks elle ») ; Instagram a la version corrigée. Leçon : le 2e champ de LEVELS et final_voice s'affichent en sous-titres, mettre la prononciation uniquement dans say_replace."
-    },
-    {
-      "n": 8,
-      "slug": "dinosaures_merge_8",
-      "date": "2026-11-13",
-      "theme": "Dinosaures",
-      "pattern": "checker",
-      "base": [
-        150,
-        225,
-        120
-      ],
-      "voice": "mb-fr4",
-      "seed_range": [
-        130,
-        160
-      ],
-      "youtube": "https://youtube.com/shorts/2J3zsfbYU2s",
-      "tiktok": "publié (en cours d'examen)",
-      "instagram": "publié (Reel)",
-      "note": "file_upload refuse $HOME=/root dans cet environnement : copier upload_merge.mp4 dans le dossier de travail de la session (ici la racine du dépôt clone, ne pas le committer)."
-    },
-    {
-      "n": 9,
-      "slug": "ecole_merge_9",
-      "date": "2026-11-14",
-      "theme": "École (personnages inventés)",
-      "pattern": "rays",
-      "base": [
-        110,
-        215,
-        225
-      ],
-      "voice": "mb-fr1",
-      "seed_range": [
-        160,
-        190
-      ],
-      "youtube": "https://youtube.com/shorts/OLKk89CEJ2I",
-      "tiktok": "publié (en cours d'examen)",
-      "instagram": "NON publié : écran Meta de consentement pub / abonnement sans pub à valider par Noé",
-      "note": "Instagram redirige vers /consent/?flow=ad_free_subscription : choix d'abonnement/consentement réservé à Noé, la tâche ne doit pas le faire."
-    },
-    {
-      "n": 10,
-      "slug": "ocean_merge_10",
-      "date": "2026-11-15",
-      "theme": "Océan",
-      "pattern": "dots",
-      "base": [
-        255,
-        172,
-        165
-      ],
-      "voice": "mb-fr4",
-      "seed_range": [
-        190,
-        220
-      ],
-      "youtube": "https://youtube.com/shorts/fCzmvSK13L4",
-      "tiktok": "publié (en cours d'examen)",
-      "instagram": "NON publié : toujours l'écran Meta /consent/?flow=ad_free_subscription (2e jour), à valider par Noé"
-    },
-    {
-      "n": 11,
-      "slug": "fruits_merge_11",
-      "date": "2026-11-16",
-      "theme": "Fruits",
-      "pattern": "spiral",
-      "base": [
-        255,
-        225,
-        95
-      ],
-      "voice": "mb-fr1",
-      "seed_range": [
-        220,
-        250
-      ],
-      "youtube": "https://youtube.com/shorts/J4Bko2DKRQQ",
-      "tiktok": "publié (en cours d'examen)",
-      "instagram": "publié (Reel)",
-      "note": "Tâche lancée en retard (17:24 UTC au lieu de 13:14 UTC) : publication vers 18h30 Paris."
-    },
-    {
-      "n": 12,
-      "slug": "vehicules_merge_12",
-      "date": "2026-11-19",
-      "theme": "Véhicules",
-      "pattern": "stripes",
-      "base": [
-        125,
-        205,
-        255
-      ],
-      "voice": "mb-fr4",
-      "seed_range": [
-        250,
-        280
-      ],
-      "youtube": "https://youtube.com/shorts/4mJQOdiUsFI",
-      "tiktok": "publié (en cours d'examen)",
-      "instagram": "publié (Reel)",
-      "note": "Tâche lancée en retard (18:42 UTC au lieu de 13:14 UTC) : publication vers 20h Paris. Instagram : captures d'écran figées, tout fait en JS (bouton svg 'Sélectionner un format' → Original, Suivant x2, focus légende + type)."
-    },
-    {
-      "n": 13,
-      "slug": "meteo_merge_13",
-      "date": "2026-11-20",
-      "theme": "Météo",
-      "pattern": "rays",
-      "base": [
-        200,
-        180,
-        255
-      ],
-      "voice": "mb-fr1",
-      "seed_range": [
-        280,
-        310
-      ],
-      "youtube": "NON publié : navigateur dédié non connecté",
-      "tiktok": "NON publié : navigateur dédié non connecté",
-      "instagram": "NON publié : navigateur dédié non connecté",
-      "note": "Tâche lancée en retard (16:48 UTC). Navigateur 1f793a53 absent (seul l'autre navigateur était connecté, non utilisé) : vidéo + textes envoyés à Noé pour publication manuelle. Accroche « DEVINE LE » fixe dans render.py : choisir un hook_title masculin."
-    },
-    {
-      "n": 14,
-      "slug": "gateaux_merge_14",
-      "date": "2026-11-22",
-      "theme": "Gâteaux",
-      "pattern": "checker",
-      "base": [
-        165,
-        235,
-        205
-      ],
-      "voice": "mb-fr4",
-      "seed_range": [
-        310,
-        340
-      ],
-      "youtube": "NON publié : navigateur dédié non connecté",
-      "tiktok": "NON publié : navigateur dédié non connecté",
-      "instagram": "NON publié : navigateur dédié non connecté",
-      "note": "Tâche lancée en retard (12:42 UTC le 22/11 au lieu du 21/11 13:14 UTC). Navigateur 1f793a53 absent (seul 88efa203 connecté, non utilisé) : vidéo + textes envoyés à Noé pour publication manuelle."
-    },
-    {
-      "n": 15,
-      "slug": "robots_merge_15",
-      "date": "2026-11-22",
-      "theme": "Robots",
-      "pattern": "dots",
-      "base": [
-        255,
-        205,
-        140
-      ],
-      "voice": "mb-fr1",
-      "seed_range": [
-        340,
-        370
-      ],
-      "youtube": "NON publié : navigateur dédié non connecté",
-      "tiktok": "NON publié : navigateur dédié non connecté",
-      "instagram": "NON publié : navigateur dédié non connecté",
-      "note": "Tâche du 22/11 (13:14 UTC). Navigateur 1f793a53 absent (seul 88efa203 connecté, non utilisé) : vidéo + textes envoyés à Noé pour publication manuelle."
-    },
-    {
-      "n": 16,
-      "slug": "openspace_merge_16",
-      "date": "2026-11-23",
-      "theme": "Open space",
-      "pattern": "spiral",
-      "base": [
-        255,
-        185,
-        215
-      ],
-      "voice": "mb-fr4",
-      "seed_range": [
-        370,
-        400
-      ],
-      "youtube": "https://youtube.com/shorts/QLYwG2WWgX4",
-      "tiktok": "publié (en cours d'examen)",
-      "instagram": "publié (Reel)",
-      "note": "Publié vers 15h45 Paris. Post-it remplacé par Pense-bête (marque). file_upload refuse $HOME=/root : copier le _web.mp4 dans le dossier de travail (/home/claude/<repo>) puis le supprimer."
-    },
-    {
-      "n": 17,
-      "slug": "famille_merge_17",
-      "date": "2026-11-24",
-      "theme": "Famille",
-      "pattern": "stripes",
-      "base": [
-        140,
-        215,
-        250
-      ],
-      "voice": "mb-fr1",
-      "seed_range": [
-        400,
-        430
-      ],
-      "youtube": "NON publié : navigateur dédié non connecté",
-      "tiktok": "NON publié : navigateur dédié non connecté",
-      "instagram": "NON publié : navigateur dédié non connecté",
-      "note": "Tâche du 24/11 (13:37 UTC). Navigateur 1f793a53 absent (seul 88efa203 connecté, non utilisé) : vidéo + textes envoyés à Noé pour publication manuelle. Graine retenue 405."
-    }
-  ],
-  "stats_notes": "TikTok : tous ~250 vues. Visionnage moyen ép1 8,2 s ; ép3 4,5 s (fond sombre) ; ép5 8,05 s, 1,6 % jusqu'au bout (fond clair + bruitages). Décrochage principal à 0:01."
+ "next_episode": 16,
+ "episodes": [
+  {
+   "n": 1,
+   "slug": "nugget_merge_1",
+   "date": "2026-11-06",
+   "theme": "Nugget",
+   "pattern": "rays",
+   "base": [
+    9,
+    9,
+    28
+   ],
+   "voice": "mb-us2/fr1",
+   "seed_range": [
+    1,
+    10
+   ]
+  },
+  {
+   "n": 2,
+   "slug": "croissant_merge_2",
+   "date": "2026-11-07",
+   "theme": "Croissant",
+   "pattern": "spiral",
+   "base": [
+    20,
+    11,
+    30
+   ],
+   "voice": "mb-fr4",
+   "seed_range": [
+    20,
+    32
+   ]
+  },
+  {
+   "n": 3,
+   "slug": "chat_merge_3_v2",
+   "date": "2026-11-08",
+   "theme": "Chat",
+   "pattern": "checker",
+   "base": [
+    12,
+    16,
+    34
+   ],
+   "voice": "mb-fr1",
+   "seed_range": [
+    1,
+    15
+   ]
+  },
+  {
+   "n": 4,
+   "slug": "manif_merge_4",
+   "date": "2026-11-09",
+   "theme": "Manif (personnages inventés)",
+   "pattern": "rays",
+   "base": [
+    10,
+    14,
+    40
+   ],
+   "voice": "mb-fr4",
+   "seed_range": [
+    40,
+    60
+   ]
+  },
+  {
+   "n": 5,
+   "slug": "ferme_merge_5",
+   "date": "2026-11-10",
+   "theme": "Ferme",
+   "pattern": "stripes",
+   "base": [
+    90,
+    175,
+    245
+   ],
+   "voice": "mb-fr1",
+   "seed_range": [
+    60,
+    84
+   ]
+  },
+  {
+   "n": 6,
+   "slug": "espace_merge_6",
+   "date": "2026-11-11",
+   "theme": "Espace",
+   "pattern": "dots",
+   "base": [
+    175,
+    140,
+    255
+   ],
+   "voice": "mb-fr4",
+   "seed_range": [
+    84,
+    96
+   ],
+   "youtube": "https://youtube.com/shorts/go_zdK8Hjd4",
+   "tiktok": "publié (en cours d'examen)",
+   "instagram": "publié (Reel)"
+  },
+  {
+   "n": 7,
+   "slug": "fastfood_merge_7",
+   "date": "2026-11-12",
+   "theme": "Fast-food",
+   "pattern": "spiral",
+   "base": [
+    255,
+    185,
+    60
+   ],
+   "voice": "mb-fr1",
+   "seed_range": [
+    100,
+    130
+   ],
+   "youtube": "https://youtube.com/shorts/vSAS2q8GHjc",
+   "tiktok": "publié (en cours d'examen)",
+   "instagram": "publié (Reel)",
+   "note": "YouTube et TikTok ont reçu une 1re version dont les sous-titres affichaient l'orthographe phonétique (« Beurgueur », « Menu iks iks elle ») ; Instagram a la version corrigée. Leçon : le 2e champ de LEVELS et final_voice s'affichent en sous-titres, mettre la prononciation uniquement dans say_replace."
+  },
+  {
+   "n": 8,
+   "slug": "dinosaures_merge_8",
+   "date": "2026-11-13",
+   "theme": "Dinosaures",
+   "pattern": "checker",
+   "base": [
+    150,
+    225,
+    120
+   ],
+   "voice": "mb-fr4",
+   "seed_range": [
+    130,
+    160
+   ],
+   "youtube": "https://youtube.com/shorts/2J3zsfbYU2s",
+   "tiktok": "publié (en cours d'examen)",
+   "instagram": "publié (Reel)",
+   "note": "file_upload refuse $HOME=/root dans cet environnement : copier upload_merge.mp4 dans le dossier de travail de la session (ici la racine du dépôt clone, ne pas le committer)."
+  },
+  {
+   "n": 9,
+   "slug": "ecole_merge_9",
+   "date": "2026-11-14",
+   "theme": "École (personnages inventés)",
+   "pattern": "rays",
+   "base": [
+    110,
+    215,
+    225
+   ],
+   "voice": "mb-fr1",
+   "seed_range": [
+    160,
+    190
+   ],
+   "youtube": "https://youtube.com/shorts/OLKk89CEJ2I",
+   "tiktok": "publié (en cours d'examen)",
+   "instagram": "NON publié : écran Meta de consentement pub / abonnement sans pub à valider par Noé",
+   "note": "Instagram redirige vers /consent/?flow=ad_free_subscription : choix d'abonnement/consentement réservé à Noé, la tâche ne doit pas le faire."
+  },
+  {
+   "n": 10,
+   "slug": "ocean_merge_10",
+   "date": "2026-11-15",
+   "theme": "Océan",
+   "pattern": "dots",
+   "base": [
+    255,
+    172,
+    165
+   ],
+   "voice": "mb-fr4",
+   "seed_range": [
+    190,
+    220
+   ],
+   "youtube": "https://youtube.com/shorts/fCzmvSK13L4",
+   "tiktok": "publié (en cours d'examen)",
+   "instagram": "NON publié : toujours l'écran Meta /consent/?flow=ad_free_subscription (2e jour), à valider par Noé"
+  },
+  {
+   "n": 11,
+   "slug": "fruits_merge_11",
+   "date": "2026-11-16",
+   "theme": "Fruits",
+   "pattern": "spiral",
+   "base": [
+    255,
+    225,
+    95
+   ],
+   "voice": "mb-fr1",
+   "seed_range": [
+    220,
+    250
+   ],
+   "youtube": "https://youtube.com/shorts/J4Bko2DKRQQ",
+   "tiktok": "publié (en cours d'examen)",
+   "instagram": "publié (Reel)",
+   "note": "Tâche lancée en retard (17:24 UTC au lieu de 13:14 UTC) : publication vers 18h30 Paris."
+  },
+  {
+   "n": 12,
+   "slug": "vehicules_merge_12",
+   "date": "2026-11-19",
+   "theme": "Véhicules",
+   "pattern": "stripes",
+   "base": [
+    125,
+    205,
+    255
+   ],
+   "voice": "mb-fr4",
+   "seed_range": [
+    250,
+    280
+   ],
+   "youtube": "https://youtube.com/shorts/4mJQOdiUsFI",
+   "tiktok": "publié (en cours d'examen)",
+   "instagram": "publié (Reel)",
+   "note": "Tâche lancée en retard (18:42 UTC au lieu de 13:14 UTC) : publication vers 20h Paris. Instagram : captures d'écran figées, tout fait en JS (bouton svg 'Sélectionner un format' → Original, Suivant x2, focus légende + type)."
+  },
+  {
+   "n": 13,
+   "slug": "meteo_merge_13",
+   "date": "2026-11-20",
+   "theme": "Météo",
+   "pattern": "rays",
+   "base": [
+    200,
+    180,
+    255
+   ],
+   "voice": "mb-fr1",
+   "seed_range": [
+    280,
+    310
+   ],
+   "youtube": "NON publié : navigateur dédié non connecté",
+   "tiktok": "NON publié : navigateur dédié non connecté",
+   "instagram": "NON publié : navigateur dédié non connecté",
+   "note": "Tâche lancée en retard (16:48 UTC). Navigateur 1f793a53 absent (seul l'autre navigateur était connecté, non utilisé) : vidéo + textes envoyés à Noé pour publication manuelle. Accroche « DEVINE LE » fixe dans render.py : choisir un hook_title masculin."
+  },
+  {
+   "n": 14,
+   "slug": "gateaux_merge_14",
+   "date": "2026-11-22",
+   "theme": "Gâteaux",
+   "pattern": "checker",
+   "base": [
+    165,
+    235,
+    205
+   ],
+   "voice": "mb-fr4",
+   "seed_range": [
+    310,
+    340
+   ],
+   "youtube": "NON publié : navigateur dédié non connecté",
+   "tiktok": "NON publié : navigateur dédié non connecté",
+   "instagram": "NON publié : navigateur dédié non connecté",
+   "note": "Tâche lancée en retard (12:42 UTC le 22/11 au lieu du 21/11 13:14 UTC). Navigateur 1f793a53 absent (seul 88efa203 connecté, non utilisé) : vidéo + textes envoyés à Noé pour publication manuelle."
+  },
+  {
+   "n": 15,
+   "slug": "robots_merge_15",
+   "date": "2026-11-22",
+   "theme": "Robots",
+   "pattern": "dots",
+   "base": [
+    255,
+    205,
+    140
+   ],
+   "voice": "mb-fr1",
+   "seed_range": [
+    340,
+    370
+   ],
+   "youtube": "NON publié : navigateur dédié non connecté",
+   "tiktok": "NON publié : navigateur dédié non connecté",
+   "instagram": "NON publié : navigateur dédié non connecté",
+   "note": "Tâche du 22/11 (13:14 UTC). Navigateur 1f793a53 absent (seul 88efa203 connecté, non utilisé) : vidéo + textes envoyés à Noé pour publication manuelle."
+  },
+  {
+   "n": 16,
+   "slug": "openspace_merge_16",
+   "date": "2026-11-23",
+   "theme": "Open space",
+   "pattern": "spiral",
+   "base": [
+    255,
+    185,
+    215
+   ],
+   "voice": "mb-fr4",
+   "seed_range": [
+    370,
+    400
+   ],
+   "youtube": "https://youtube.com/shorts/QLYwG2WWgX4",
+   "tiktok": "publié (en cours d'examen)",
+   "instagram": "publié (Reel)",
+   "note": "Publié vers 15h45 Paris. Post-it remplacé par Pense-bête (marque). file_upload refuse $HOME=/root : copier le _web.mp4 dans le dossier de travail (/home/claude/<repo>) puis le supprimer."
+  },
+  {
+   "n": 17,
+   "slug": "famille_merge_17",
+   "date": "2026-11-24",
+   "theme": "Famille",
+   "pattern": "stripes",
+   "base": [
+    140,
+    215,
+    250
+   ],
+   "voice": "mb-fr1",
+   "seed_range": [
+    400,
+    430
+   ],
+   "youtube": "NON publié : navigateur dédié non connecté",
+   "tiktok": "NON publié : navigateur dédié non connecté",
+   "instagram": "NON publié : navigateur dédié non connecté",
+   "note": "Tâche du 24/11 (13:37 UTC). Navigateur 1f793a53 absent (seul 88efa203 connecté, non utilisé) : vidéo + textes envoyés à Noé pour publication manuelle. Graine retenue 405."
+  },
+  {
+   "n": 18,
+   "slug": "chiens_merge_18",
+   "date": "2026-11-25",
+   "theme": "Chiens",
+   "pattern": "rays",
+   "base": [
+    205,
+    190,
+    250
+   ],
+   "voice": "mb-fr4",
+   "seed_range": [
+    430,
+    460
+   ],
+   "youtube": "NON publié : navigateur dédié non connecté",
+   "tiktok": "NON publié : navigateur dédié non connecté",
+   "instagram": "NON publié : navigateur dédié non connecté",
+   "note": "Tâche du 25/11 (13:17 UTC). Navigateur 1f793a53 absent (seul 88efa203 connecté, non utilisé) : vidéo + textes envoyés à Noé pour publication manuelle. Graine retenue 430."
+  }
+ ],
+ "stats_notes": "TikTok : tous ~250 vues. Visionnage moyen ép1 8,2 s ; ép3 4,5 s (fond sombre) ; ép5 8,05 s, 1,6 % jusqu'au bout (fond clair + bruitages). Décrochage principal à 0:01."
 }

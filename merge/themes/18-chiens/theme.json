@@ -1,0 +1,76 @@
+{
+  "slug": "chiens_merge_18",
+  "episode": 18,
+  "hook_title": "CHIEN FINAL !",
+  "hook_voice": "Devine ce que devient ce petit chiot !",
+  "twist_title": "LE VÉTÉRINAIRE !",
+  "twist_boom": "PIQÛRE !",
+  "twist_voice": [
+    "Oh non ! Le vétérinaire débarque avec sa seringue géante !",
+    "Tous les chiens se cachent sous le canapé !",
+    "Ouf, c'était juste pour une friandise, la fusion continue !"
+  ],
+  "final_intro": "TU AS CRÉÉ LE",
+  "final_voice": "Chien... cosmique !",
+  "extra": {
+    "2": ["Le caniche sort de chez le coiffeur !"],
+    "3": ["Le beagle a senti une saucisse !"],
+    "4": ["Le husky hurle à la lune !"],
+    "5": ["Le labrador ramène toujours la balle !"],
+    "6": ["Le saint-bernard apporte du chocolat chaud !"]
+  },
+  "fill": [
+    "Ouaf ouaf, fusion !",
+    "Qui est un bon chien ?",
+    "Allez, encore un !",
+    "Regarde celui-là !",
+    "Ça remue la queue de partout !",
+    "Qui a mangé mes chaussons ?",
+    "Assis ! Couché ! Fusion !",
+    "La promenade attendra !",
+    "On y est presque !",
+    "Ça devient énorme là.",
+    "Attention, il va te lécher !",
+    "Encore un toutou !",
+    "Trop fort ce montage !",
+    "Donne la patte !"
+  ],
+  "say_replace": {"husky": "euski", "Husky": "Euski", "HUSKY": "euski", "beagle": "bigueul", "Beagle": "Bigueul", "BEAGLE": "bigueul", "Ouaf": "Ouafe", "ouaf": "ouafe", "toutou": "toutou"},
+  "colors": {
+    "base": [205, 190, 250],
+    "stripe": [225, 214, 255],
+    "inner": [253, 251, 255],
+    "inner_edge": [95, 60, 170],
+    "neon": [
+      [210, 150, 70],
+      [170, 100, 40],
+      [230, 100, 160],
+      [190, 110, 40],
+      [70, 140, 220],
+      [215, 160, 0],
+      [160, 85, 30],
+      [130, 70, 220]
+    ]
+  },
+  "pattern": "rays",
+  "voice": {"engine": "mb-fr4", "pitch": 64, "speed": 172},
+  "music": {
+    "bpm": 130,
+    "chords": [[67, 71, 74, 79], [64, 67, 71, 76], [60, 64, 67, 72], [62, 66, 69, 74]]
+  },
+  "sfx_reveal": {
+    "2": ["squeak:1.2"],
+    "3": ["clown_honk"],
+    "4": ["howl"],
+    "5": ["airhorn3"],
+    "6": ["vine_boom"],
+    "7": []
+  },
+  "seed_range": [430, 460],
+  "post": {
+    "caption": "Du chiot au chien cosmique 🐶🌌 Tu t'arrêtes à quel niveau ? Commente 1 à 8 👇 #chien #jeudefusion #brainrot #satisfying",
+    "title": "J'ai créé le CHIEN COSMIQUE 🐶👑",
+    "youtube_category": "ENTERTAINMENT",
+    "tags": ["chien", "jeu de fusion", "brainrot", "satisfying"]
+  }
+}
