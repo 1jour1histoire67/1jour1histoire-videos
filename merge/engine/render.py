@@ -319,7 +319,7 @@ def render(f):
         img.alpha_composite(bub)
         text_c(img, (tx, ty + 10), "?", int(220 * sc_s), fill=(255, 255, 255, 255), stroke=(120, 60, 0, 255), sw=int(12 * sc_s) + 2)
         al = 1 if t < 1.3 else max(0, (1.7 - t) / 0.4)
-        text_c(img, (CX, 250), "DEVINE LE", 84, alpha=al)
+        text_c(img, (CX, 250), T.get("hook_intro", "DEVINE LE"), 84, alpha=al)
         text_c(img, (CX, 355), T["hook_title"], 104, fill=(255, 225, 90, 255), alpha=al)
     elif not fin:
         lvl_txt = f"NIVEAU {ml + 1}/{n}"

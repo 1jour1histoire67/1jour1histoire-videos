@@ -1,0 +1,182 @@
+{
+  "slug": "jardin_merge_19",
+  "episode": 19,
+  "hook_intro": "DEVINE L'",
+  "hook_title": "ARBRE FINAL !",
+  "hook_voice": "Devine ce que devient cette petite graine !",
+  "twist_title": "UNE TONDEUSE !",
+  "twist_boom": "VROUM !",
+  "twist_voice": [
+    "Oh non ! Une tondeuse débarque dans le jardin !",
+    "Toutes les plantes rentrent la tête dans les épaules !",
+    "Ouf, elle est tombée en panne d'essence, la fusion continue !"
+  ],
+  "final_intro": "TU AS CRÉÉ L'",
+  "final_voice": "Arbre... magique !",
+  "extra": {
+    "2": [
+      "La fleur sent trop bon !"
+    ],
+    "3": [
+      "Le tournesol cherche le soleil !"
+    ],
+    "4": [
+      "Le cactus, on ne lui fait pas de câlin !"
+    ],
+    "5": [
+      "Le buisson cache des framboises !"
+    ],
+    "6": [
+      "L'arbre fait tomber ses pommes !"
+    ]
+  },
+  "fill": [
+    "Ça pousse, ça pousse !",
+    "Arrose, arrose !",
+    "Allez, encore une !",
+    "Regarde celle-là !",
+    "Le jardin déborde !",
+    "Qui a marché dans mes salades ?",
+    "Un peu d'engrais et fusion !",
+    "Les escargots sont jaloux !",
+    "On y est presque !",
+    "Ça devient énorme là.",
+    "Attention aux épines !",
+    "Encore une petite plante !",
+    "Trop fort ce potager !",
+    "La main verte, c'est toi !"
+  ],
+  "say_replace": {},
+  "colors": {
+    "base": [
+      225,
+      245,
+      150
+    ],
+    "stripe": [
+      240,
+      252,
+      190
+    ],
+    "inner": [
+      255,
+      255,
+      245
+    ],
+    "inner_edge": [
+      60,
+      130,
+      50
+    ],
+    "neon": [
+      [
+        190,
+        140,
+        80
+      ],
+      [
+        90,
+        170,
+        70
+      ],
+      [
+        235,
+        100,
+        150
+      ],
+      [
+        225,
+        165,
+        0
+      ],
+      [
+        60,
+        160,
+        100
+      ],
+      [
+        40,
+        130,
+        50
+      ],
+      [
+        150,
+        100,
+        40
+      ],
+      [
+        160,
+        80,
+        220
+      ]
+    ]
+  },
+  "pattern": "dots",
+  "voice": {
+    "engine": "mb-fr1",
+    "pitch": 58,
+    "speed": 176
+  },
+  "music": {
+    "bpm": 118,
+    "chords": [
+      [
+        65,
+        69,
+        72,
+        77
+      ],
+      [
+        62,
+        65,
+        69,
+        74
+      ],
+      [
+        67,
+        71,
+        74,
+        79
+      ],
+      [
+        60,
+        64,
+        67,
+        72
+      ]
+    ]
+  },
+  "sfx_reveal": {
+    "2": [
+      "pew"
+    ],
+    "3": [
+      "ding"
+    ],
+    "4": [
+      "squeak:1.5"
+    ],
+    "5": [
+      "slide_whistle:1"
+    ],
+    "6": [
+      "vine_boom"
+    ],
+    "7": []
+  },
+  "seed_range": [
+    460,
+    490
+  ],
+  "post": {
+    "caption": "De la graine à l'arbre magique 🌱✨ Tu t'arrêtes à quel niveau ? Commente 1 à 8 👇 #jardin #jeudefusion #brainrot #satisfying",
+    "title": "J'ai créé l'ARBRE MAGIQUE 🌳✨",
+    "youtube_category": "ENTERTAINMENT",
+    "tags": [
+      "jardin",
+      "jeu de fusion",
+      "brainrot",
+      "satisfying"
+    ]
+  }
+}
