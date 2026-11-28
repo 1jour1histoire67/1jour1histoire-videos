@@ -16,6 +16,7 @@ Chaque ligne donne : les 8 niveaux, puis le rebondissement (le personnage de `ma
 - [x] **FAMILLE** (ép. 17) : Bébé → Enfant → Ado → Étudiant → Parent → Papy → Arrière-papy → PAPY LÉGENDAIRE. Rebondissement : PLUS DE WIFI ! Bruitages : record_scratch, sad_trombone, cheer.
 - [x] **CHIENS** (ép. 18) : Chiot → Teckel → Caniche → Beagle → Husky → Labrador → Saint-Bernard → CHIEN COSMIQUE. Rebondissement : LE VÉTÉRINAIRE ! Bruitages : squeak, howl, airhorn3.
 - [x] **JARDIN** (ép. 19) : Graine → Pousse → Fleur → Tournesol → Cactus → Buisson → Arbre → ARBRE MAGIQUE. Rebondissement : UNE TONDEUSE ! Bruitages : pew, boing, vine_boom.
+- [x] **HIVER** (ép. 20) : Flocon → Glaçon → Boule de neige → Bonhomme de neige → Pingouin → Igloo → Ours polaire → YÉTI ROYAL. Rebondissement : UN RADIATEUR ! Bruitages : squeak, clown_honk, slide_whistle, howl, airhorn3.
 
 ## Déjà faits
 - [x] Nugget (ép. 1), Croissant (ép. 2), Chat (ép. 3), Manif (ép. 4), Ferme (ép. 5)

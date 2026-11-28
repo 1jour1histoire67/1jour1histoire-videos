@@ -1,0 +1,81 @@
+{
+  "slug": "hiver_merge_20",
+  "episode": 20,
+  "hook_title": "YÉTI FINAL !",
+  "hook_voice": "Devine ce que devient ce petit flocon !",
+  "twist_title": "UN RADIATEUR !",
+  "twist_boom": "PSCHHH !",
+  "twist_voice": [
+    "Oh non ! Un radiateur brûlant débarque sur la banquise !",
+    "Tout le monde commence à fondre, au secours !",
+    "Ouf, quelqu'un l'a débranché, la fusion continue !"
+  ],
+  "final_intro": "TU AS CRÉÉ LE",
+  "final_voice": "Yéti... royal !",
+  "extra": {
+    "2": ["Bataille de boules de neige !"],
+    "3": ["Il a perdu sa carotte, le pauvre !"],
+    "4": ["Le pingouin glisse sur le ventre !"],
+    "5": ["Toc toc, il y a quelqu'un dans l'igloo ?"],
+    "6": ["L'ours polaire veut un câlin tout doux !"]
+  },
+  "fill": [
+    "Brr, il fait froid !",
+    "Ça glisse, ça glisse !",
+    "Allez, encore une !",
+    "Regarde celui-là !",
+    "La banquise déborde !",
+    "Qui a mis de la neige dans mes chaussettes ?",
+    "Un peu de givre et fusion !",
+    "Mets ton bonnet !",
+    "On y est presque !",
+    "Ça devient énorme là.",
+    "Attention, ça patine !",
+    "Encore un petit flocon !",
+    "Trop fort cet hiver !",
+    "Champion des glaces, c'est toi !"
+  ],
+  "say_replace": {},
+  "colors": {
+    "base": [255, 195, 165],
+    "stripe": [255, 222, 200],
+    "inner": [252, 254, 255],
+    "inner_edge": [55, 105, 175],
+    "neon": [
+      [90, 170, 240],
+      [60, 190, 220],
+      [120, 150, 230],
+      [235, 120, 50],
+      [40, 60, 110],
+      [80, 150, 210],
+      [120, 170, 220],
+      [150, 90, 230]
+    ]
+  },
+  "pattern": "checker",
+  "voice": {"engine": "mb-fr4", "pitch": 64, "speed": 171},
+  "music": {
+    "bpm": 132,
+    "chords": [
+      [62, 66, 69, 74],
+      [59, 62, 66, 71],
+      [64, 67, 71, 76],
+      [57, 61, 64, 69]
+    ]
+  },
+  "sfx_reveal": {
+    "2": ["squeak:1.3"],
+    "3": ["clown_honk"],
+    "4": ["slide_whistle:0"],
+    "5": ["howl"],
+    "6": ["airhorn3"],
+    "7": []
+  },
+  "seed_range": [490, 520],
+  "post": {
+    "caption": "Du flocon au yéti royal ❄️👑 Tu t'arrêtes à quel niveau ? Commente 1 à 8 👇 #hiver #jeudefusion #brainrot #satisfying",
+    "title": "J'ai créé le YÉTI ROYAL ❄️👑",
+    "youtube_category": "ENTERTAINMENT",
+    "tags": ["hiver", "jeu de fusion", "brainrot", "satisfying"]
+  }
+}

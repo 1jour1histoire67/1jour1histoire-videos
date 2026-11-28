@@ -1,5 +1,5 @@
 {
-  "next_episode": 16,
+  "next_episode": 21,
   "episodes": [
     {
       "n": 1,
@@ -377,6 +377,27 @@
       "tiktok": "publié (en cours d'examen)",
       "instagram": "publié (Reel)",
       "note": "Publié vers 15h45 Paris via navigateur 1f793a53. Graine retenue 460. Nouveau champ theme.json hook_intro (défaut « DEVINE LE ») pour « DEVINE L' » ; final_intro « TU AS CRÉÉ L' »."
+    },
+    {
+      "n": 20,
+      "slug": "hiver_merge_20",
+      "date": "2026-11-28",
+      "theme": "Hiver",
+      "pattern": "checker",
+      "base": [
+        255,
+        195,
+        165
+      ],
+      "voice": "mb-fr4",
+      "seed_range": [
+        490,
+        520
+      ],
+      "youtube": "NON publié : navigateur dédié non connecté",
+      "tiktok": "NON publié : navigateur dédié non connecté",
+      "instagram": "NON publié : navigateur dédié non connecté",
+      "note": "Tâche du 28/11 (lancée 16:16 UTC, en retard). Navigateur 1f793a53 absent (seul 88efa203 connecté, non utilisé) : vidéo + textes envoyés à Noé pour publication manuelle. BACKLOG vide : thème Hiver inventé."
     }
   ],
   "stats_notes": "TikTok : tous ~250 vues. Visionnage moyen ép1 8,2 s ; ép3 4,5 s (fond sombre) ; ép5 8,05 s, 1,6 % jusqu'au bout (fond clair + bruitages). Décrochage principal à 0:01."
